@@ -20,7 +20,7 @@ elif MODE == "prod":
 		updater.start_webhook(listen = "0.0.0.0", port = PORT, url_path = TOKEN)
 		print(TOKEN)
 		print(HEROKU_APP_NAME)
-		updater.bot.set_webhook("https://{HEROKU_APP_NAME}.herokuapp.com/{TOKEN}")
+		updater.bot.set_webhook(f"https://{HEROKU_APP_NAME}.herokuapp.com/{TOKEN}")
 
 
 def start(update, context):
