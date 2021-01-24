@@ -8,6 +8,18 @@ from datetime import datetime
 
 TOKEN = os.getenv("TOKEN")
 VAR = 0
+MODE = os.getenv("MODE")
+if MODE == "dev":
+	def run(update):
+		update.start_polling()
+		update.idle()
+elif MODE == "prod":
+	def run(updater):
+		PORT = int(os.environ.get("PORT", "8443"))
+		HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
+		updater.start_webhook(listen = "0.0.0.0", port = PORT, url_path = TOKEN)
+		updater.bot.start_webhook("https://(HEROKU_APP_NAME).herokuapp.com/{TOKEN}")
+
 
 def start(update, context):
 	name = update.effective_user['first_name']
@@ -122,7 +134,6 @@ def main():
 	dp.add_handler(CommandHandler('start', start))
 	dp.add_handler(CommandHandler('creditos', creditos))
 	dp.add_handler(CallbackQueryHandler(creditos_del_usuario))
-	update.start_polling()
-	update.idle()
+	run(update)
 
 main()
