@@ -186,8 +186,8 @@ def main():
 	dp.add_handler(CommandHandler('creditos', creditos))
 	dp.add_handler(CallbackQueryHandler(clic_en_boton))
 	dp.add_handler(CommandHandler('concurso', concurso))
-	#run(update)
-	update.start_polling()
-	update.idle()
+	run(update)
+	#update.start_polling()
+	#update.idle()
 
 main()
