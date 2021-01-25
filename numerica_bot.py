@@ -125,7 +125,7 @@ def quitarEtiquetas (Contenido_htlm):
 
 def concurso(update, context):
 	listado = ["10 preguntas", "Supervivencia", "Cuantas preguntas puedes resolver en 2 minutos"]
-	listado_botones = [telegram.InlineKeyboardButton(listado[i], callback_data = (str(i)) for i in range(len(listado))]
+	listado_botones = [telegram.InlineKeyboardButton(listado[i], callback_data = (str(i))) for i in range(len(listado))]
 	reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
 	update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
 	update.message.chat.send_message("En que modo deseas jugar?", parse_mode = 'Markdown', reply_markup = reply_markup)
