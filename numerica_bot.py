@@ -1,5 +1,5 @@
 import telegram 
-from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
+from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, ConversationHandler
 from telegram import ChatAction
 import telegram.ext
 import os
@@ -24,7 +24,7 @@ elif MODE == "prod":
 def start(update, context):
 	name = update.effective_user['first_name']
 	update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
-	update.message.chat.send_message("Hola " + name + ", es una herramienta hecha especialmente para la asignatura Matematica Numerica, esperamos que les sea util.")
+	update.message.chat.send_message("Hola " + name + ", esta es una herramienta hecha especialmente para la asignatura Matematica Numerica, esperamos que le sea util.")
 	
 def creditos_htlm():
 	res = open("creditos-c2-cas-finales-pero-faltaban-detalles/creditos-MN-C2-hasta-2019-12-16.html")
@@ -49,14 +49,37 @@ def build_menu (buttons, n_cols, header_buttons = None, footer_buttons = None):
     menu = [buttons[i:i + n_cols] for i in range(0, len(buttons), n_cols)]
     return menu
 
-def creditos_del_usuario(update, context):
+def clic_en_boton(update, context):
 	query = update.callback_query
-	name1 = query.data
-	name1 = name1.split(" ")
+	etiqueta = query.data
+	if etiqueta == "0": #Modo de 10 preguntas
+		preguntas_10_mode(update, context)
+		return
+	if etiqueta == "1":#Supervivencia
+		supervivencia_mode(update, context)
+		return
+	if etiqueta == "2": #Cuantas preguntas puedes resolver en 2 minutos
+		preguntas_en_2min(update, context)
+		return
+	if etiqueta == "3": #Comenzar de Modo de 10 preguntas
+	    #preguntas_10_start(update, context, count)
+		return
+	if etiqueta == "4": #Cancelar de Modo de 10 preguntas
+		return
+	if etiqueta == "5": #Comenzar de Supervivencia
+		return
+	if etiqueta == "6": #Cancelar de Supervivencia
+		return
+	if etiqueta == "7": #Comenzar de Cuantas preguntas puedes resolver en 2 minutos
+		return
+	if etiqueta == "8": #Cancelar de Cuantas preguntas puedes resolver en 2 minutos
+		return
+
+	etiqueta = etiqueta.split(" ")
 	name = ""
-	for index in range(2, len(name1) - 7):
-		name += name1[index] + " " 
-	name += name1[len(name1) - 7]
+	for index in range(2, len(etiqueta) - 7):
+		name += etiqueta[index] + " " 
+	name += etiqueta[len(etiqueta) - 7]
 	res = open("creditos-c2-cas-finales-pero-faltaban-detalles/detalles-de-los-creditos-MN-C2-hasta-2019-12-16/" + name + ".html")
 	texto = soup(res.read(), 'html.parser').get_text()
 	texto = texto.split("\n")
@@ -100,6 +123,30 @@ def isDate(date):
 	except ValueError:
 		return False
 
+def preguntas_10_mode(update, context):
+	listado = ["Comenzar", "Cancelar"]
+	listado_botones = [telegram.InlineKeyboardButton(listado[i], callback_data = (str(i+3))) for i in range(len(listado))]
+	reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
+	update.callback_query.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
+	update.callback_query.message.chat.send_message("En este modo de juego, se te haran 10 preguntas para las cuales tendras un tiempo determinado para responderlas", parse_mode = 'Markdown', reply_markup = reply_markup)
+
+def supervivencia_mode(update, context):
+	listado = ["Comenzar", "Cancelar"]
+	listado_botones = [telegram.InlineKeyboardButton(listado[i], callback_data = (str(i+5))) for i in range(len(listado))]
+	reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
+	update.callback_query.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
+	update.callback_query.message.chat.send_message("En este modo de juego, podras responder preguntas hasta que contestes 3 incorrectamente", parse_mode = 'Markdown', reply_markup = reply_markup)
+
+def preguntas_en_2min(update, context):
+	listado = ["Comenzar", "Cancelar"]
+	listado_botones = [telegram.InlineKeyboardButton(listado[i], callback_data = (str(i+7))) for i in range(len(listado))]
+	reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
+	update.callback_query.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
+	update.callback_query.message.chat.send_message("En este modo de juego, podras responder todas las preguntas que puedas en 2 minutos", parse_mode = 'Markdown', reply_markup = reply_markup)
+
+#def preguntas_10_start(update, context, count):
+
+
 def creditos_del_usuario_htlm(name):
 	res = open("creditos-c2-cas-finales-pero-faltaban-detalles/detalles-de-los-creditos-MN-C2-hasta-2019-12-16/" + name + ".html")
 	Contenido_htlm = res.read()
@@ -130,12 +177,6 @@ def concurso(update, context):
 	update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
 	update.message.chat.send_message("En que modo deseas jugar?", parse_mode = 'Markdown', reply_markup = reply_markup)
 
-def modo_de_juego(update, context):
-	query = update.callback_query
-	button = query.data
-	if button == 1:
-		query.bot.send_message(chat_id = query.message.chat_id, text= message, parse_mode = telegram.ParseMode.HTML)
-
 
 def main():
 	bot = telegram.Bot(token = '1583703417:AAHJesGQmy8AvnuR-d-9u12jNOSRd6PNQrs')
@@ -143,9 +184,10 @@ def main():
 	dp = update.dispatcher
 	dp.add_handler(CommandHandler('start', start))
 	dp.add_handler(CommandHandler('creditos', creditos))
-	dp.add_handler(CallbackQueryHandler(creditos_del_usuario))
+	dp.add_handler(CallbackQueryHandler(clic_en_boton))
 	dp.add_handler(CommandHandler('concurso', concurso))
-	dp.add_handler(CallbackQueryHandler(modo_de_juego))
-	run(update)
+	#run(update)
+	update.start_polling()
+	update.idle()
 
 main()
