@@ -42,6 +42,7 @@ ptyprocess==0.6.0
 py==1.8.1
 pycairo==1.16.2
 python-telegram-bot==13.1
+pytimeparse==1.1.8
 pytz==2020.4
 pyxdg==0.25
 reportlab==3.4.0
