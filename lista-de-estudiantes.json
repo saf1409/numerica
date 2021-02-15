@@ -1,0 +1,535 @@
+{"Estudiantes": [
+  {
+  "Nombre": "Ana Paula Coroas",
+  "Total de Creditos": "90000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-13": [
+              {"Monto": 10000, "Detalles": "cuando no eres de la facultad y aún así estudias matemática numérica"}],
+             "Monto Total": 10000},
+            {"2021-02-11": [
+              {"Monto": 50000, "Detalles": "Créditos por ser de otra facultad y aún así querer pasar la asignatura"},
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 80000}
+           ]
+},
+  {
+  "Nombre": "Rafael Rodríguez Rodríguez",
+  "Total de Creditos": "80000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 50000, "Detalles": "Créditos por ser de otra facultad y aún así querer pasar la asignatura"},
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 80000}
+           ]
+},
+  {
+  "Nombre": "Yisell Martínez Noa",
+  "Total de Creditos": "80000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 50000, "Detalles": "Créditos por responder una pregunta que se hizo en el grupo y que nadie más había respondido."},
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 80000}
+           ]
+},
+  {
+  "Nombre": "Daniel Alejandro Cárdenas Cabrera",
+  "Total de Creditos": "60000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber sido la primera persona en entrar al canal de Telegram"},
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 60000}
+           ]
+},
+  {
+  "Nombre": "Sheyla Leyva Sánchez",
+  "Total de Creditos": "60000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber sido la primera persona en entrar al grupo de Telegram"},
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 60000}
+           ]
+},
+  {
+  "Nombre": "Félix Daniel Acosta Rodríguez",
+  "Total de Creditos": "60000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-13": [
+              {"Monto": 30000, "Detalles": "la imagen propuesta para el canal"}],
+             "Monto Total": 30000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Darío Fragas González",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-15": [
+              {"Monto": 10000, "Detalles": "Optimismo y confianza en el futuro al decir que: Este curso tiene pinta de que va a ser divertido al menos..."}],
+             "Monto Total": 10000},
+            {"2021-02-12": [
+              {"Monto": 20000, "Detalles": "Créditos por haber entrado al canal de telegram el viernes"}],
+             "Monto Total": 20000}
+           ]
+},
+  {
+  "Nombre": "Javier Alejandro Oramas López",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-12": [
+              {"Monto": 10000, "Detalles": "Matemática numérica y el nasobuco de fuego"},
+              {"Monto": 20000, "Detalles": "Créditos por haber entrado al canal de telegram el viernes"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jorge Carlos García Morales",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Leismael Sosa Hernández",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jesús Santos Capote",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Elena Rodríguez Horta",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Arian Pazo Valido",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Ailec León Montes de Oca",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Niley González Ferrales",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Lázaro Alejandro Castro Arango",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Hansel Blanco Martí",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "José Julián Baujin Santana",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Lia de la Concepción Zerquera Ferrer",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Leonardo Ulloa Ferrer",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jorge Alejandro Soler González",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Anet Maria Rodriguez Cadalso",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Alejandra Monzón Peña",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "José Luis Leiva Fleitas",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Abraham González Rivero",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Rainel Fernández Abreu",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Raúl Beltrán Gómez",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Francisco Octavio Ayra Cáceres",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jesus Aldair Alfonso Perez",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Ernesto Alfonso Hernández",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Marcos Manuel Tirador Del Riego",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Kevin Talavera Díaz",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jordan Plá González",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jan Carlos Pérez González",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Abel Marrero Camero",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Gabriel Hernández Rodríguez",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Lázaro Daniel González Martínez",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "David Domínguez Francisco",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Ramón Cruz Alfonso",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Laura Victoria Riera Pérez",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Belsai Arango Hernández",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Diamis Alfonso Pérez",
+  "Total de Creditos": "30000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Carlos Carret Miranda",
+  "Total de Creditos": "20000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-12": [
+              {"Monto": 20000, "Detalles": "Créditos por haber entrado al canal de telegram el viernes"}],
+             "Monto Total": 20000}
+           ]
+},
+  {
+  "Nombre": "Lauren Guerra Hernández",
+  "Total de Creditos": "20000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-12": [
+              {"Monto": 20000, "Detalles": "Créditos por haber entrado al canal de telegram el viernes"}],
+             "Monto Total": 20000}
+           ]
+},
+  {
+  "Nombre": "Victor Manuel Amador Sosa",
+  "Total de Creditos": "10000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-15": [
+              {"Monto": 10000, "Detalles": "Provocar bug en el sistema de los créditos :-/, y permitir que se pueda arreglar."}],
+             "Monto Total": 10000}
+           ]
+},
+  {
+  "Nombre": "Andry Rosquet",
+  "Total de Creditos": "10000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-15": [
+              {"Monto": 10000, "Detalles": "Provocar bug en el sistema de los créditos :-/, y permitir que se pueda arreglar."}],
+             "Monto Total": 10000}
+           ]
+},
+  {
+  "Nombre": "Alejandro Yero Valdez",
+  "Total de Creditos": "10000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-02-13": [
+              {"Monto": 10000, "Detalles": "Créditos por haber entrado al canal de telegram el sabado"}],
+             "Monto Total": 10000}
+           ]
+}
+  ]
+}

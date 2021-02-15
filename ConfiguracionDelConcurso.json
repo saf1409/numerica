@@ -1,0 +1,57 @@
+{
+           "Configuracion": [
+                      {
+                                 "FechaDeInicio": "2021-2-15 ",
+                                 "HoraDeInicio": "02:32",
+                                 "FechaDeFin": "2021-2-15",
+                                 "HoraDeFin": "02:34",
+                                 "PagoPorJugar": [
+                                            {
+                                                       "10Preguntas": 300
+                                            },
+                                            {
+                                                       "Supervivencia": 500
+                                            },
+                                            {
+                                                       "CuantoEnXminutos": [
+                                                                  {
+                                                                             "1": 1000
+                                                                  },
+                                                                  {
+                                                                             "2": 1500
+                                                                  },
+                                                                  {
+                                                                             "5": 2000
+                                                                  }
+                                                       ]
+                                            }
+                                 ],
+                                 "PremioPorCadaPregunta": 500,
+                                 "PremioParaElGanadorEnCadaModo": [
+                                            {
+                                                       "10Preguntas": 2100
+                                            },
+                                            {
+                                                       "Supervivencia": 3147
+                                            },
+                                            {
+                                                       "CuantoEnXminutos": [
+                                                                  {
+                                                                             "1": 1423
+                                                                  },
+                                                                  {
+                                                                             "2": 5768
+                                                                  },
+                                                                  {
+                                                                             "5": 6277
+                                                                  }
+                                                       ]
+                                            }
+                                 ],
+                                 "PremioParaElGanadorEn2Modos": 2452,
+                                 "PremioParaElGanadorEn3Modos": 2969,
+                                 "PremioParaElGanadorEn4Modos": 5245,
+                                 "PremioParaElGanadorEn5Modos": 7567
+                      }
+           ]
+}
