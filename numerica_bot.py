@@ -1404,7 +1404,7 @@ def create_countdown(timeout_secs, callback, context, mode, **kwargs):
 	timer.apply_interval(1000, callback_wrapper, kwargs=kwargs)
 
 def main():
-	bot = telegram.Bot(token = '1583703417:AAGdN-sjQgtSzuzJxs23_ximnwQ_RVdJ9Es')
+	bot = telegram.Bot(token = TOKEN)
 	update = Updater(bot.token, use_context=True) 
 	dp = update.dispatcher
 	start_handler = ConversationHandler(
@@ -1535,8 +1535,6 @@ def main():
 	dp.add_handler(premiados_handler)
 	dp.add_handler(help_handler)
 	dp.add_handler(detalles_concurso_handler)
-	update.start_polling()
-	update.idle()
-	#run(update)
+	run(update)
 
 main()
