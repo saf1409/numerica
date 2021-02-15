@@ -13,7 +13,7 @@ import timer3
 import datetime
 import emoji
 import sqlite3
-import schedule
+#import schedule
 import threading
 #from safe_schedule import SafeScheduler
 
