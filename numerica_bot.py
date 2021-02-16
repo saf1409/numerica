@@ -744,7 +744,7 @@ def listado_creditos(update, context):
 	listado_json = open("lista-de-estudiantes.json")
 	estudiantes = json.loads(listado_json.read())["Estudiantes"]
 	for i in range(len(estudiantes)):
-		listado.append(estudiantes[i]["Nombre"] + " -> " + estudiantes[i]["Total de Creditos"])
+		listado.append(str(i + 1) + ". " + estudiantes[i]["Nombre"] + " -> " + estudiantes[i]["Total de Creditos"])
 
 	listado_botones = [telegram.InlineKeyboardButton(listado[i], callback_data = ("Creditos " + str(i))) for i in range(len(listado))]
 	listado_botones.append(telegram.InlineKeyboardButton("Atras", callback_data = "Atras_Listado_Creditos"))
