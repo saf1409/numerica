@@ -13,9 +13,7 @@ import timer3
 import datetime
 import emoji
 import sqlite3
-#import schedule
 import threading
-#from safe_schedule import SafeScheduler
 
 TOKEN = os.getenv("TOKEN")
 MODE = os.getenv("MODE")
@@ -1403,6 +1401,11 @@ def create_countdown(timeout_secs, callback, context, mode, **kwargs):
 	timer = timer3.Timer()
 	timer.apply_interval(1000, callback_wrapper, kwargs=kwargs)
 
+def update_databese(update, context):
+	database = open("NumericaBotDatabase/numericabot.db",  "rb")
+	update.message.chat.send_document(database)
+
+
 def main():
 	bot = telegram.Bot(token = TOKEN)
 	update = Updater(bot.token, use_context=True) 
@@ -1535,6 +1538,7 @@ def main():
 	dp.add_handler(premiados_handler)
 	dp.add_handler(help_handler)
 	dp.add_handler(detalles_concurso_handler)
+	dp.add_handler(CommandHandler('get_database', update_databese))
 	run(update)
 
 main()
