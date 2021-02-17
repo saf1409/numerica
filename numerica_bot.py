@@ -18,7 +18,7 @@ import threading
 TOKEN = os.getenv("TOKEN")
 MODE = os.getenv("MODE")
 
-CONCURSO, JUGAR, SELECT_MODE_GAME, START_MODE_GAME, ANSWER, RANKING, CANCEL, NAME, SELECT_TIME, RANKING, CREDITOS, LISTADO, ADDCONCURSO, ADDADMINISTRADOR, RECLAMACION, RECLAMACIONADMINISTRADOR, BORRARRECLAMACIONES, PREMIOS, DETALLES_FIN_CONCURSO, DETALLES_POR_MODOS, DETALLES_POR_PREGUNTAS, DETALLESCREDITOS = range(22)
+CONCURSO, JUGAR, SELECT_MODE_GAME, START_MODE_GAME, ANSWER, RANKING, CANCEL, NAME, SELECT_TIME, RANKING, CREDITOS, LISTADO, ADDCONCURSO, ADDADMINISTRADOR, RECLAMACION, RECLAMACIONADMINISTRADOR, BORRARRECLAMACIONES, PREMIOS, DETALLES_FIN_CONCURSO, DETALLES_POR_MODOS, DETALLES_POR_PREGUNTAS, DETALLESCREDITOS, RECLAMACION_CALLBACKQUERY = range(23)
 
 if MODE == "dev":
 	def run(update):
@@ -731,8 +731,13 @@ def creditos_callbackQuery(update, context):
 	if query.data == "Listado de Creditos":
 		return listado_creditos(update, context)
 	elif query.data == "Reclamar":
-		query.bot.edit_message_text(chat_id = query.message.chat_id,message_id= query.message.message_id, text= "Por favor, escriba su reclamacion, sea lo mas claro posible")
-		return RECLAMACION
+		listado_botones = []
+		listado_botones.append(telegram.InlineKeyboardButton("Si", callback_data = "Si"))
+		listado_botones.append(telegram.InlineKeyboardButton("Atras", callback_data = "Atras"))
+		listado_botones.append(telegram.InlineKeyboardButton("Cancelar", callback_data = "Cancelar"))
+		reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
+		query.bot.edit_message_text(chat_id = query.message.chat_id,message_id= query.message.message_id, text= "Esta seguro que desea enviar una reclamacion?", reply_markup=reply_markup)
+		return RECLAMACION_CALLBACKQUERY
 	elif query.data == "Cancelar":
 		query.message.delete()
 		return ConversationHandler.END
@@ -1405,6 +1410,16 @@ def update_databese(update, context):
 	database = open("NumericaBotDatabase/numericabot.db",  "rb")
 	update.message.chat.send_document(database)
 
+def reclamacion_CQ(update,context):
+	query = update.callback_query
+	if query.data == "Si":
+		query.bot.edit_message_text(chat_id = query.message.chat_id,message_id= query.message.message_id, text= "Por favor, escriba su reclamacion, sea lo mas claro posible")
+		return RECLAMACION
+	elif query.data == "Atras":
+		return creditos(update, context)
+	elif query.data == "Cancelar":
+		query.message.delete()
+		return ConversationHandler.END
 
 def main():
 	bot = telegram.Bot(token = TOKEN)
@@ -1432,6 +1447,7 @@ def main():
 		states={
 			CREDITOS:[CallbackQueryHandler(creditos_callbackQuery, pass_user_data=True)],
 			LISTADO:[CallbackQueryHandler(listado_callbackQuery, pass_user_data=True)],
+			RECLAMACION_CALLBACKQUERY: [CallbackQueryHandler(reclamacion_CQ)],
 			RECLAMACION : [MessageHandler(Filters.text, reclamacion_callbackQuery)],
 			DETALLESCREDITOS: [CallbackQueryHandler(detalles_de_creditos_callbackQuery, pass_user_data=True)]
 		},
