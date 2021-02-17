@@ -1416,7 +1416,7 @@ def reclamacion_CQ(update,context):
 		query.bot.edit_message_text(chat_id = query.message.chat_id,message_id= query.message.message_id, text= "Por favor, escriba su reclamacion, sea lo mas claro posible")
 		return RECLAMACION
 	elif query.data == "Atras":
-		return creditos(update, context)
+		return creditos(update, context, True)
 	elif query.data == "Cancelar":
 		query.message.delete()
 		return ConversationHandler.END
