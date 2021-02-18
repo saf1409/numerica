@@ -1529,7 +1529,7 @@ def get_info(update, context):
 		\n/send_message_all <message>")
 
 def main():
-	bot = telegram.Bot(token = "1670025923:AAHsyihT5o0Oaoj3YLDOki0A77R1JarBGQ0")
+	bot = telegram.Bot(token =TOKEN)
 	update = Updater(bot.token, use_context=True) 
 	dp = update.dispatcher
 	start_handler = ConversationHandler(
