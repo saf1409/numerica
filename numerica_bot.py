@@ -18,8 +18,8 @@ import threading
 TOKEN = os.getenv("TOKEN")
 MODE = os.getenv("MODE")
 
-CONCURSO, JUGAR, SELECT_MODE_GAME, START_MODE_GAME, ANSWER, RANKING, CANCEL, NAME, SELECT_TIME, RANKING, CREDITOS, LISTADO, ADDCONCURSO, ADDADMINISTRADOR, RECLAMACION, RECLAMACIONADMINISTRADOR, BORRARRECLAMACIONES, PREMIOS, DETALLES_FIN_CONCURSO, DETALLES_POR_MODOS, DETALLES_POR_PREGUNTAS, DETALLESCREDITOS, RECLAMACION_CALLBACKQUERY = range(23)
-
+CONCURSO, JUGAR, SELECT_MODE_GAME, START_MODE_GAME, ANSWER, RANKING, CANCEL, NAME, SELECT_TIME, RANKING, CREDITOS, LISTADO, ADDCONCURSO, ADDADMINISTRADOR, RECLAMACION, RECLAMACIONADMINISTRADOR, BORRARRECLAMACIONES, PREMIOS, DETALLES_FIN_CONCURSO, DETALLES_POR_MODOS, DETALLES_POR_PREGUNTAS, DETALLESCREDITOS, RECLAMACION_CALLBACKQUERY, VIEW_RECLAMACIONES = range(24)
+CHAT_ID = -1001230142863
 if MODE == "dev":
 	def run(update):
 		update.start_polling()
@@ -34,6 +34,10 @@ elif MODE == "prod":
 def help(update, context):
 	adm = False
 	if not update.effective_user['id'] == 937372768 and not update.effective_user['id'] == 716780131 and not update.effective_user['id'] == 823911446:
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Administrador` " \
@@ -58,6 +62,11 @@ def start(update, context):
 	name = update.effective_user['first_name']
 	update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
 	update.message.chat.send_message("Hola " + name + ", esta es una herramienta hecha especialmente para la asignatura Matematica Numerica, esperamos que le sea util.")
+
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+	
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("CREATE TABLE IF NOT EXISTS `Usuario` " \
@@ -78,17 +87,32 @@ def start(update, context):
 
 def name(update, context): 
 	nombre = update.message.text
+
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("INSERT INTO `Usuario` (`ID_User`,`Nombre_User`) Values"\
 			"('{0}', '{1}')".format(update.effective_user['id'], nombre))
 	conexion.commit()
 	conexion.close()
+
+	db = open("NumericaBotDatabase/numericabot.db", "rb")
+	FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+	MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+	update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 	update.message.chat.send_message("Gracias. Ya puedes usar los comandos que tiene el bot")
 	return ConversationHandler.END
 
 def add_concurso(update, context):
 	if not update.effective_user['id'] == 937372768 and not update.effective_user['id'] == 716780131 and not update.effective_user['id'] == 823911446:
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Administrador` " \
@@ -130,6 +154,11 @@ def add_concurso_callbackQuery(update, context):
 
 	configuracionDelConcurso_json = open("ConfiguracionDelConcurso.json")
 	configuracion = json.loads(configuracionDelConcurso_json.read())["Configuracion"]
+
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("CREATE TABLE IF NOT EXISTS Concurso " \
@@ -204,6 +233,12 @@ def add_concurso_callbackQuery(update, context):
 	
 	conexion.commit()
 	conexion.close()
+
+	db = open("NumericaBotDatabase/numericabot.db", "rb")
+	FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+	MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+	update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 	fin = threading.Thread(target = resultados_concurso, args = (update, context))
 	fin.start()
 	return ConversationHandler.END
@@ -229,6 +264,10 @@ def resultados_concurso(update, context):
 		tiempo+= int(falta[0].split(":")[1])*60
 
 	time.sleep(tiempo)
+
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
 
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
@@ -306,6 +345,11 @@ def resultados_concurso(update, context):
 	conexion.commit()
 	conexion.close()
 	
+	db = open("NumericaBotDatabase/numericabot.db", "rb")
+	FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+	MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+	update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 	return DETALLES_FIN_CONCURSO
 
 def detalles_concurso_callbackquery(update, context):
@@ -315,6 +359,9 @@ def detalles_concurso_callbackquery(update, context):
 		update.callback_query.message.delete()
 		return ConversationHandler.END
 	
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
 
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
@@ -356,8 +403,14 @@ def detalles_por_preguntas(update, context):
 
 	respuesta = context.user_data[mode][1][index][1]
 
+	print("index: {0} \nrespuesta: {1}".format(index, respuesta))
+	answer = ""
+	if int(respuesta) != -1:
+		answer = str(context.user_data[mode][0][index]["RespuestasPosibles"][int(respuesta)][respuesta])
+	else:
+		answer = "-----"
 	msg = str(index + 1) +". " + str(context.user_data[mode][0][index]["Texto"]) + "\n"+\
-		"Respondistes: " + str(context.user_data[mode][0][index]["RespuestasPosibles"][int(respuesta)][respuesta]) +"\n"+\
+		"Respondistes: " + answer +"\n"+\
 		"Respuesta Correcta: " + str(context.user_data[mode][0][index]["RespuestaCorrecta"]) + "\n"+\
 		"Justificacion: "+ str(context.user_data[mode][0][index]["Explicacion"])
 	
@@ -377,6 +430,11 @@ def detalles_por_preguntas(update, context):
 def resultados_concurso_callbackquery(update, context):
 	if update.callback_query.data == "Detalles_Fin_Concurso":
 		msg = "Usted participo en los siguientes modos. \n\n"
+
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("SELECT Modo_de_Juego FROM Jugada WHERE ID_User = {0} AND ID_Concurso = (SELECT ID_Concurso FROM concurso ORDER BY ID_Concurso DESC LIMIT 1)".format(update._effective_chat.id))
@@ -385,20 +443,25 @@ def resultados_concurso_callbackquery(update, context):
 
 		for item in current:
 			if item[0] == '10Preguntas':
-				msg += "10 Preguntas \n"
+				msg += "✔️ 10 Preguntas \n"
 				listado_botones.append(telegram.InlineKeyboardButton("10 Preguntas", callback_data = "10Preguntas"))
 			elif item[0] == 'Supervivencia':
-				msg += "Supervivencia \n"
+				msg += "✔️ Supervivencia \n"
 				listado_botones.append(telegram.InlineKeyboardButton("Supervivencia", callback_data = "Supervivencia"))
 			elif item[0][0:13] == 'preguntas_en_':
-				msg += "Pregutas en {0} minutos \n".format(item[0][13])
-				listado_botones.append(telegram.InlineKeyboardButton("Pregutas en {0} minutos \n".format(item[0][13]), callback_data = "pregutas_en_{0}min".format(item[0][13])))
+				msg += "✔️ Preguntas en {0} minutos \n".format(item[0][13])
+				listado_botones.append(telegram.InlineKeyboardButton("Preguntas en {0} minutos \n".format(item[0][13]), callback_data = "preguntas_en_{0}min".format(item[0][13])))
 
 		cursor.execute("SELECT Modo_de_Juego, Nombre_User FROM Premiado INNER JOIN Usuario USING(ID_User) WHERE ID_Concurso = (SELECT ID_Concurso FROM concurso ORDER BY ID_Concurso DESC LIMIT 1)")
 		ganadores = cursor.fetchall()
-		msg += "Los ganadores del concurso por modo de juego son: \n"
+		msg += "\nLos ganadores del concurso por modo de juego son: \n\n"
 		for item in ganadores:
-			msg += item[0] + ": " + item[1] + "\n"
+			if item[0] == '10Preguntas':
+				msg += "✅ 10 Preguntas: 🏆" + item[1] + "🏆\n"
+			elif item[0] == 'Supervivencia':
+				msg += "✅ Supervivencia: 🏆" + item[1] + "🏆\n"
+			elif item[0][0:13] == 'preguntas_en_':
+				msg += "✅ Preguntas en {0} minutos: 🏆".format(item[0][13]) + item[1] + "🏆\n"
 
 		listado_botones.append(telegram.InlineKeyboardButton("Cancelar", callback_data = "Cancelar"))
 		reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
@@ -407,6 +470,9 @@ def resultados_concurso_callbackquery(update, context):
 		return DETALLES_POR_MODOS
 
 def add_administrador(update, context):
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	if not update.effective_user['id'] == 937372768 and not update.effective_user['id'] == 716780131 and not update.effective_user['id'] == 823911446:
@@ -428,6 +494,11 @@ def add_administrador(update, context):
 	
 def add_administrador_callbackQuery(update, context):
 	text = update.message.text
+
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("CREATE TABLE IF NOT EXISTS `Administrador` " \
@@ -448,10 +519,20 @@ def add_administrador_callbackQuery(update, context):
 	
 	conexion.commit()
 	conexion.close()
+
+	db = open("NumericaBotDatabase/numericabot.db", "rb")
+	FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+	MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+	update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 	update.message.chat.send_message("Administrador agregado")
 	return ConversationHandler.END
 
 def reclamaciones_administrador(update, context, is_back = False):
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	if not update.effective_user['id'] == 937372768 and not update.effective_user['id'] == 716780131 and not update.effective_user['id'] == 823911446:
@@ -468,12 +549,12 @@ def reclamaciones_administrador(update, context, is_back = False):
 		if not registrado:
 			update.message.chat.send_message("Usted no tiene permiso para acceder a este comando")
 			return ConversationHandler.END
-
-	listado = ["Ver Reclamaciones", "Borrar reclamaciones", "Cancelar"]
+	listado = ["Ver Reclamaciones", "Ver Todo", "Borrar reclamaciones", "Cancelar"]
 	listado_botones = []
-	listado_botones.append(telegram.InlineKeyboardButton(listado[0], callback_data = "Reclamaciones"))
-	listado_botones.append(telegram.InlineKeyboardButton(listado[1], callback_data = "Borrar reclamaciones"))
-	listado_botones.append(telegram.InlineKeyboardButton(listado[2], callback_data = "Cancelar"))
+	listado_botones.append(telegram.InlineKeyboardButton(listado[0], callback_data = "Reclamaciones_0"))
+	listado_botones.append(telegram.InlineKeyboardButton(listado[1], callback_data = "Reclamaciones_VerTodo"))
+	listado_botones.append(telegram.InlineKeyboardButton(listado[2], callback_data = "Borrar_reclamaciones"))
+	listado_botones.append(telegram.InlineKeyboardButton(listado[3], callback_data = "Cancelar_"))
 	reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 1))
 	if not is_back: 
 		update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
@@ -486,32 +567,100 @@ def reclamaciones_administrador(update, context, is_back = False):
 
 def reclamaciones_administrador_callbackQuery(update, context):
 	query = update.callback_query
-	if query.data == "Reclamaciones":
+	if query.data.split("_")[0] == "Reclamaciones":
+		#context.use_context["list_reclamaciones"] = []
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS Reclamacion " \
 				"(`ID_R` integer  PRIMARY KEY AUTOINCREMENT NOT NULL, ID_User NOT NULL, `Texto`  VARCHAR(1000) NOT NULL)")
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Usuario` " \
 		"(`ID_User` integer PRIMARY KEY NOT NULL, `Nombre_User` VARCHAR(50) NOT NULL)")
-		cursor.execute("SELECT Nombre_User, Texto FROM RECLAMACION INNER JOIN Usuario USING(ID_User)")
+		cursor.execute("SELECT Nombre_User, Texto, ID_R FROM RECLAMACION INNER JOIN Usuario USING(ID_User)")
 		reclamaciones = cursor.fetchall()
-		texto = ""
-		index = 0
-		for item in reclamaciones:
-			texto += str(index + 1) + ". " + str(item[0]) + ": " + str(item[1]) + "\n"
-			if index + 1 < len(reclamaciones):
-				texto += "-"*30 + '\n'
-			index += 1
-		conexion.close()
-		if texto == "":
-			update.callback_query.message.chat.send_message("No hay reclamaciones en estos momentos")
+		if query.data == "Reclamaciones_VerTodo":
+			texto = ""
+			index = 0
+			for item in reclamaciones:
+				texto += str(index + 1) + ". " + str(item[0]) + ": " + str(item[1]) + "\n"
+				if index + 1 < len(reclamaciones):
+					texto += "-"*30 + '\n'
+				index += 1
+			conexion.close()
+			if texto == "":
+				update.callback_query.message.chat.send_message("No hay reclamaciones en estos momentos")
+			else:
+				update.callback_query.message.chat.send_message(texto)
 		else:
-			update.callback_query.message.chat.send_message(texto)
-	elif query.data == "Borrar reclamaciones":
+			context.user_data["list_reclamaciones"] = reclamaciones
+			return view_reclamaciones_admin(update, context, is_back=False)
+		
+		
+	elif query.data == "Borrar_reclamaciones":
 		return borrar_reclamaciones(update, context)
-	elif query.data == "Cancelar":
+	elif query.data == "Cancelar_":
 		query.message.delete()
 		return ConversationHandler.END
+
+def view_reclamaciones_admin(update, context, is_back=True):
+	if update.callback_query.data == "Cancelar":
+		update.callback_query.message.delete()
+		return ConversationHandler.END
+	elif update.callback_query.data.split('_')[0] == "Borrar":
+		index = delete_reclamaciones_admin(int(update.callback_query.data.split('_')[1]), context, update)
+	else:
+		action, index = update.callback_query.data.split('_')
+		index = int(update.callback_query.data.split('_')[1])
+	msg = ""
+	
+	listado = ["Siguente", "Anterior", "Borrar", "Cancelar"]
+	listado_botones = []
+
+	if is_back and index - 1 >= 0:
+		listado_botones.append(telegram.InlineKeyboardButton(listado[1], callback_data = "Anterior_" + str(int(update.callback_query.data.split('_')[1]) - 1)))
+	if index != 0 and index + 1 < len(context.user_data["list_reclamaciones"]) and len(context.user_data["list_reclamaciones"]) > 0:
+		listado_botones.append(telegram.InlineKeyboardButton(listado[0], callback_data = "Siguiente_" + (str(1) if not is_back else str(index + 1))))
+	
+	if index < len(context.user_data["list_reclamaciones"]) and len(context.user_data["list_reclamaciones"]) != 0:
+		listado_botones.append(telegram.InlineKeyboardButton(listado[2], callback_data = "Borrar_" + (str(0) if not is_back else str(index))))
+	listado_botones.append(telegram.InlineKeyboardButton(listado[3], callback_data = "Cancelar"))
+	reply_markup = telegram.InlineKeyboardMarkup(build_menu(listado_botones, n_cols = 2 if len(listado_botones) > 1 else 1, header_buttons= [telegram.InlineKeyboardButton(listado[0], callback_data = "Siguiente_" + (str(1) if not is_back else str(index + 1)))] if (not is_back or int(index) == 0) and len(context.user_data["list_reclamaciones"]) > 0 else None))
+
+	if len(context.user_data["list_reclamaciones"]) == 0:
+		msg = "No hay reclamaciones en estos momentos"
+	elif index >= len(context.user_data["list_reclamaciones"]):
+		msg = "No mas reclamaciones para mostrar"
+	elif not is_back:
+		msg = str(1) + ". " + context.user_data["list_reclamaciones"][0][0] + ": " + context.user_data["list_reclamaciones"][0][1]
+		#update.callback_query.message.edit_text(msg, parse_mode = 'Markdown', reply_markup=reply_markup)
+	else:
+		msg = str(index + 1) + ". " + context.user_data["list_reclamaciones"][index][0] + ": " + context.user_data["list_reclamaciones"][index][1]
+		#update.callback_query.message.edit_text(msg, parse_mode = 'Markdown', reply_markup=reply_markup)
+	update.callback_query.message.edit_text(msg, parse_mode = 'Markdown', reply_markup=reply_markup)
+	return VIEW_RECLAMACIONES
+		
+def delete_reclamaciones_admin(index, context, update):
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
+	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
+	cursor = conexion.cursor()
+	cursor.execute("DELETE FROM RECLAMACION WHERE ID_R = {0}".format(int(context.user_data["list_reclamaciones"][index][2])))
+	context.user_data["list_reclamaciones"].pop(index)
+
+	conexion.commit()
+	conexion.close()
+
+	db = open("NumericaBotDatabase/numericabot.db", "rb")
+	FILE_ID = update.callback_query.message.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+	MESSAGE_ID = update.callback_query.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+	update.callback_query.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
+	return index
 
 def borrar_reclamaciones(update, context):
 	listado = ["Si", "No", "Cancelar"]
@@ -528,12 +677,26 @@ def borrar_reclamaciones(update, context):
 def borrar_reclamaciones_callbackQuery(update, context):
 	query = update.callback_query
 	if query.data == "Si":
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS Reclamacion " \
 				"(`ID_R` integer  PRIMARY KEY AUTOINCREMENT NOT NULL, ID_User NOT NULL, `Texto`  VARCHAR(1000) NOT NULL)")
 		cursor.execute("DROP TABLE Reclamacion")
+		conexion.commit()
+		conexion.close()
+
+		db = open("NumericaBotDatabase/numericabot.db", "rb")
+		FILE_ID = update.callback_query.message.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+		MESSAGE_ID = update.callback_query.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+		update.callback_query.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
+		context.user_data["list_reclamaciones"] = []
 		update.callback_query.message.edit_text("Todas las reclamaciones han sido borradas")
+		return ConversationHandler.END
 	elif query.data == "No":
 		return reclamaciones_administrador(update, context, is_back = True)
 	elif query.data == "Cancelar":
@@ -541,6 +704,10 @@ def borrar_reclamaciones_callbackQuery(update, context):
 		return ConversationHandler.END
 
 def premios (update, context):
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	if not update.effective_user['id'] == 937372768 and not update.effective_user['id'] == 716780131 and not update.effective_user['id'] == 823911446:
@@ -570,6 +737,10 @@ def premios (update, context):
 
 def premios_callbackQuery(update, context): #probar todo
 	query = update.callback_query
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("CREATE TABLE IF NOT EXISTS `Premiado`" \
@@ -627,6 +798,10 @@ def mensaje(update, context):
 	text = text.split("\n")
 	if text[0] == "*Add_Concurso*": 
 		if  not update.effective_user['id'] == 937372768:
+			FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+			file = context.bot.getFile(FILE_ID)
+			file.download('./NumericaBotDatabase/numericabot.db')
+
 			conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 			cursor = conexion.cursor()
 			cursor.execute("CREATE TABLE IF NOT EXISTS `Administrador` " \
@@ -659,6 +834,10 @@ def mensaje(update, context):
 
 		with open("ConfiguracionDelConcurso.json", 'w') as file:
 			json.dump(data, file, indent = 11)
+
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
 
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
@@ -696,6 +875,12 @@ def mensaje(update, context):
 			"('{0}')".format(int(text[1])))
 		conexion.commit()
 		conexion.close()
+
+		db = open("NumericaBotDatabase/numericabot.db", "rb")
+		FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+		MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+		update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 		update.message.chat.send_message("Administrador agregado")
 
 def creditos(update, context, is_back = False):
@@ -779,6 +964,10 @@ def listado_callbackQuery(update, context):
 
 def reclamacion_callbackQuery(update, context):
 	text = update.message.text
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("CREATE TABLE IF NOT EXISTS Reclamacion " \
@@ -788,6 +977,12 @@ def reclamacion_callbackQuery(update, context):
 
 	conexion.commit()
 	conexion.close()
+
+	db = open("NumericaBotDatabase/numericabot.db" , "rb")
+	FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID,document= db).document.file_id
+	MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+	update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 	update.message.chat.send_message("Su reclamacion ha sido agregada a la lista de reclamaciones, se le atendera lo mas rapido posible")
 	return ConversationHandler.END
 	
@@ -845,9 +1040,13 @@ def detalles_de_creditos_callbackQuery(update, context):
 		query.message.delete()
 		return ConversationHandler.END
 
-def build_menu (buttons, n_cols, header_buttons = None, footer_buttons = None):
-    menu = [buttons[i:i + n_cols] for i in range(0, len(buttons), n_cols)]
-    return menu
+def build_menu(buttons, n_cols, header_buttons = None, footer_buttons = None):
+	menu = [buttons[i:i + n_cols] for i in range(0, len(buttons), n_cols)]
+	if header_buttons:
+		menu.insert(0, header_buttons)
+	if footer_buttons:
+		menu.append(footer_buttons)
+	return menu
 
 def preguntas_10_mode(update, context, its_ok):
 	configuracionDelConcurso_json = open("ConfiguracionDelConcurso.json")
@@ -1084,6 +1283,10 @@ def ranking_callbackQuery(update, context):
 	query = update.callback_query
 	its_ok = hay_concurso()
 	if query.data == "Ranking_General":
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1103,6 +1306,10 @@ def ranking_callbackQuery(update, context):
 		update.callback_query.message.chat.send_message(listado)
 
 	elif query.data == "Ranking_Semanal_General":
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1122,6 +1329,10 @@ def ranking_callbackQuery(update, context):
 		update.callback_query.message.chat.send_message(listado)
 
 	elif query.data == "Ranking_Semanal_Modo10Preguntas" or query.data == "Ranking_Semanal_ModoSupervivencia" or query.data == "Ranking_Semanal_Modopreguntas_en_1min" or query.data == "Ranking_Semanal_Modopreguntas_en_2min" or query.data == "Ranking_Semanal_Modopreguntas_en_5min":
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1141,6 +1352,10 @@ def ranking_callbackQuery(update, context):
 		update.callback_query.message.chat.send_message(listado)
 
 	elif query.data == "Ranking_General_Modo10Preguntas" or query.data == "Ranking_General_ModoSupervivencia" or query.data == "Ranking_General_Modopreguntas_en_1min" or query.data == "Ranking_General_Modopreguntas_en_2min" or query.data == "Ranking_General_Modopreguntas_en_5min":
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1205,6 +1420,10 @@ def start_modo_game(update, context):
 			return
 
 	if query.data == "Comenzar_preguntas_10_mode":
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1325,6 +1544,10 @@ def answer_quetions(update, context):
 			
 			if len(context.user_data[mode][0]) == 10:
 				query.bot.send_message(chat_id = query.message.chat_id, text= "Juego terminado!!!! Cuando acabe el concurso estaran disponibles los resultados", parse_mode = telegram.ParseMode.HTML)
+				FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+				file = context.bot.getFile(FILE_ID)
+				file.download('./NumericaBotDatabase/numericabot.db')
+
 				conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 				cursor = conexion.cursor()
 				cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1339,6 +1562,12 @@ def answer_quetions(update, context):
 					"('{0}', '{1}', '10Preguntas', '{2}', 10, '{3}', '{4}')".format(Concurso_actual[0], update.effective_user['id'], Concurso_actual[1] * respuestas_correctas ,len(context.user_data["preguntas_10_mode"][0]), respuestas_correctas, len(context.user_data["preguntas_10_mode"][0]) - respuestas_correctas))
 				conexion.commit()
 				conexion.close()
+
+				db = open("NumericaBotDatabase/numericabot.db", "rb")
+				FILE_ID = update.callback_query.message.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+				MESSAGE_ID = update.callback_query.message.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+				update.callback_query.message.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 				return ConversationHandler.END
 			else:
 				ConversationHandler.END
@@ -1356,6 +1585,10 @@ def answer_quetions(update, context):
 				context.user_data["vidas"] -= 1
 			if context.user_data["vidas"] == 0:
 				query.bot.send_message(chat_id = query.message.chat_id, text= "Juego terminado!!!! Cuando acabe el concurso estaran disponibles los resultados", parse_mode = telegram.ParseMode.HTML)
+				FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+				file = context.bot.getFile(FILE_ID)
+				file.download('./NumericaBotDatabase/numericabot.db')
+
 				conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 				cursor = conexion.cursor()
 				cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1368,13 +1601,24 @@ def answer_quetions(update, context):
 					"({0}, {1}, 'Supervivencia', {2}, {3}, {4}, 3)".format(Concurso_actual[0], update.effective_user['id'], Concurso_actual[1] * respuestas_correctas ,len(context.user_data["supervivencia_mode"][0]), respuestas_correctas))
 				conexion.commit()
 				conexion.close()
+
+				db = open("NumericaBotDatabase/numericabot.db", "rb")
+				FILE_ID = update.callback_query.message.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+				MESSAGE_ID = update.callback_query.message.bot.chat.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+				update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 				return ConversationHandler.END
 			else:
 				ConversationHandler.END
 				return siguiente_pregunta(update, context, mode)
 	elif mode[0:13] == "preguntas_en_":
 		if context.user_data["status"] == "finish":
+			context.user_data[mode][1].append(respuesta)
 			query.bot.send_message(chat_id = query.message.chat_id, text= "Juego terminado!!!! Cuando acabe el concurso estaran disponibles los resultados", parse_mode = telegram.ParseMode.HTML)
+			FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+			file = context.bot.getFile(FILE_ID)
+			file.download('./NumericaBotDatabase/numericabot.db')
+
 			conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 			cursor = conexion.cursor()
 			cursor.execute("CREATE TABLE IF NOT EXISTS `Jugada`" \
@@ -1387,7 +1631,12 @@ def answer_quetions(update, context):
 			
 			conexion.commit()
 			conexion.close()
-			
+
+			db = open("NumericaBotDatabase/numericabot.db", "rb")
+			FILE_ID = update.callback_query.message.bot.send_document(chat_id=CHAT_ID, document=db).document.file_id
+			MESSAGE_ID = update.callback_query.message.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+			update.callback_query.message.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
+
 			return ConversationHandler.END
 		elif int(respuesta[2]) > len(context.user_data[mode][1]) and context.user_data["status"] == "is_running":
 			context.user_data[mode][1].append(respuesta)
@@ -1441,8 +1690,13 @@ def create_countdown(timeout_secs, callback, context, mode, **kwargs):
 
 def update_databese(update, context):
 	if update.effective_user['id'] == 937372768 or update.effective_user['id'] == 716780131:
+		#FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		#file = context.bot.getFile(FILE_ID)
+		#file.download('./NumericaBotDatabase/numericabot.db')
 		database = open("NumericaBotDatabase/numericabot.db",  "rb")
-		update.message.chat.send_document(database)
+		FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=database).document.file_id
+		MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
+		update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
 	else:
 		update.message.chat.send_message("Usted no tiene accseso al comando solicitado.")
 
@@ -1472,18 +1726,22 @@ def get_coincidence():
 
 def my_send_message_all(update, context):
 	if len(context.args) >= 1:
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
+
 		conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 		cursor = conexion.cursor()
 		cursor.execute("SELECT * FROM Usuario")
 		user = cursor.fetchall()
 		msg = ""
-		for i in range(1, len(context.args)):
+		for i in range(0, len(context.args)):
 			msg += context.args[i] + " "
-		for id_user in user[0]:
-			if id_user == update.effective_user['id']:
+		for id_user in user:
+			if id_user[0] == update.effective_user['id']:
 				continue
 			try:
-				update.message.chat.bot.send_message(chat_id=id_user, text=msg)
+				update.message.chat.bot.send_message(chat_id=id_user[0], text=msg)
 			except:
 				continue
 		update.message.chat.send_message("✅ Mensaje enviado correctamente.")
@@ -1510,6 +1768,10 @@ def my_send_message(update, context):
 		update.message.chat.send_message("⛔️ Algo no estas haciendo bien. La sintaxis correcta es la siguente: \n\n /send_message <id_user> <message>")
 
 def get_alluser(update, context):
+	FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+	file = context.bot.getFile(FILE_ID)
+	file.download('./NumericaBotDatabase/numericabot.db')
+	
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
 	cursor.execute("SELECT * FROM Usuario")
@@ -1528,8 +1790,21 @@ def get_info(update, context):
 		\n/send_message <id_user> <message>\
 		\n/send_message_all <message>")
 
+def a_asd(update,context):
+	CHAT_ID = update.message.chat_id
+	update.message_id.chat(CHAT_ID)
+	#global FILE_ID
+	#print(CHAT_ID)
+	#update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=update.message.message_id)
+	#chat = context.bot.get_chat(CHAT_ID)
+	#print(chat.pinned_message.text)
+	#file = context.bot.getFile(FILE_ID)
+	#db = file.download('./db')
+	#
+	#update.message.chat.send_document(db)
+
 def main():
-	bot = telegram.Bot(token =TOKEN)
+	bot = telegram.Bot(token = TOKEN)
 	update = Updater(bot.token, use_context=True) 
 	dp = update.dispatcher
 	start_handler = ConversationHandler(
@@ -1624,7 +1899,8 @@ def main():
 
 		states = {
 			RECLAMACIONADMINISTRADOR:[CallbackQueryHandler(reclamaciones_administrador_callbackQuery, pass_user_data=True)],
-			BORRARRECLAMACIONES:[CallbackQueryHandler(borrar_reclamaciones_callbackQuery, pass_user_data=True)]
+			BORRARRECLAMACIONES:[CallbackQueryHandler(borrar_reclamaciones_callbackQuery, pass_user_data=True)],
+			VIEW_RECLAMACIONES:[CallbackQueryHandler(view_reclamaciones_admin, pass_user_data=True)]
 		}, 
 
 		fallbacks = []
@@ -1669,6 +1945,9 @@ def main():
 	dp.add_handler(CommandHandler('get_alluser', get_alluser))
 	dp.add_handler(CommandHandler('send_message', my_send_message))
 	dp.add_handler(CommandHandler('send_message_all', my_send_message_all))
+
+	dp.add_handler(CommandHandler('a', a_asd))
+
 	run(update)
 
 main()
