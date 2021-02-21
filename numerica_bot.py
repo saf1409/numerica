@@ -1791,8 +1791,8 @@ def get_info(update, context):
 		\n/send_message_all <message>")
 
 def a_asd(update,context):
-	CHAT_ID = update.message.chat_id
-	update.message.chat.send_message(CHAT_ID)
+	asd = update.message.chat_id
+	update.message.chat.send_message(asd)
 	#global FILE_ID
 	#print(CHAT_ID)
 	#update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=update.message.message_id)
