@@ -131,6 +131,77 @@
            ]
 },
   {
+  "Nombre": "Hansel Blanco Martí",
+  "Total de Creditos": "1217000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-11": [
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": 6000, "Detalles": "Por rectificar errores ortograficos (6) en primera version de la conferencia 1"},
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: El móvil, porque también se adapta a estas formas de clases a distancia."},
+              {"Monto": 5000, "Detalles": "Por encontrar error en primera version de la conferencia 2"}],
+             "Monto Total": 41000},
+            {"2021-03-10": [
+              {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 15000, "Detalles": "Por CP 0 ejercicio  2 (incisos A, B) entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 80000, "Detalles": "Por CP 0 pregunta secreta 4 entregada antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"},
+              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": 805000},
+            {"2021-03-05": [
+              {"Monto": 20000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": 50000, "Detalles": "Por encontrar error en primera version de la conferencia 2"}],
+             "Monto Total": 90000},
+            {"2021-02-27": [
+              {"Monto": 10000, "Detalles": "Por descargar libro Computing with IEEE 754"}],
+             "Monto Total": 10000},
+            {"2021-02-26": [
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"}],
+             "Monto Total": 10000},
+            {"2021-02-25": [
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"},
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"},
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 0"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"}],
+             "Monto Total": 100000},
+            {"2021-02-22": [
+              {"Monto": 2000, "Detalles": "Por Dos pifias del profesor al pasar sus créditos"}],
+             "Monto Total": 2000},
+            {"2021-02-21": [
+              {"Monto": 1000, "Detalles": "Por exigir un OK en la confirmación del canal :-P"}],
+             "Monto Total": 1000},
+            {"2021-02-19": [
+              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"}],
+             "Monto Total": 10000},
+            {"2021-02-17": [
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"},
+              {"Monto": 10000, "Detalles": "Por recomendar el libro The art of hapinnes"},
+              {"Monto": 5000, "Detalles": "Por rectificar errores ortograficos (5) en primera version de la conferencia 0"}],
+             "Monto Total": 25000},
+            {"2021-02-15": [
+              {"Monto": 30000, "Detalles": "Por identificar 3 recomendaciones de libros de los profesores."},
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 53000, "Detalles": "Por ser la persona # 8 en solicitar un canal de telegram"}],
+             "Monto Total": 93000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
   "Nombre": "Alejandra Monzón Peña",
   "Total de Creditos": "1177000",
   "Gremio": "NIL",
@@ -307,6 +378,57 @@
               {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
               {"Monto": 55000, "Detalles": "Por ser la persona # 6 en solicitar un canal de telegram"}],
              "Monto Total": 85000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Lázaro Daniel González Martínez",
+  "Total de Creditos": "1108000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-12": [
+              {"Monto": 30000, "Detalles": "Por preguntar las características de las aritméticas de la máquina. en conferencia 2"}],
+             "Monto Total": 30000},
+            {"2021-03-10": [
+              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": 50000},
+            {"2021-03-09": [
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"},
+              {"Monto": 80000, "Detalles": "Por CP 0 pregunta secreta 2 entregada antes"}],
+             "Monto Total": 880000},
+            {"2021-02-26": [
+              {"Monto": 2000, "Detalles": "Por Mantener el orden y la higiene en los canales y los grupos."}],
+             "Monto Total": 2000},
+            {"2021-02-22": [
+              {"Monto": 5000, "Detalles": "Por La idea de ponerle el mismo libro a todos los profesores"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"},
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 0"}],
+             "Monto Total": 45000},
+            {"2021-02-17": [
+              {"Monto": 10000, "Detalles": "Por recomendar el libro Tom Sawyer"},
+              {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la conferencia 0"}],
+             "Monto Total": 13000},
+            {"2021-02-16": [
+              {"Monto": 40000, "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."},
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 8000, "Detalles": "Por ser la persona # 53 en solicitar un canal de telegram"}],
+             "Monto Total": 58000},
             {"2021-02-11": [
               {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
              "Monto Total": 30000}
@@ -595,6 +717,70 @@
            ]
 },
   {
+  "Nombre": "Roxana Peña Mendieta",
+  "Total de Creditos": "957000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-10": [
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 2"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
+              {"Monto": 20000, "Detalles": "Por calcular el valor del espaciamiento en conferencia 1"},
+              {"Monto": 12000, "Detalles": "Por rectificar errores ortograficos (12) en primera version de la conferencia 2"},
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: espada laser para defenderse de los profesores de 4to grado"}],
+             "Monto Total": 73000},
+            {"2021-03-09": [
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"}],
+             "Monto Total": 640000},
+            {"2021-03-03": [
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"}],
+             "Monto Total": 30000},
+            {"2021-03-02": [
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con clase práctica 1"},
+              {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 1"}],
+             "Monto Total": 13000},
+            {"2021-02-26": [
+              {"Monto": 19000, "Detalles": "Por rectificar errores ortograficos (19) en primera version de la conferencia 1"},
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
+              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
+             "Monto Total": 89000},
+            {"2021-02-23": [
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme"}],
+             "Monto Total": 10000},
+            {"2021-02-22": [
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme"}],
+             "Monto Total": 10000},
+            {"2021-02-17": [
+              {"Monto": 10000, "Detalles": "Por recomendar el libro El padrino"},
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"},
+              {"Monto": 10000, "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"},
+              {"Monto": 7000, "Detalles": "Por rectificar errores ortograficos (7) en primera version de la conferencia 0"},
+              {"Monto": 40000, "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."}],
+             "Monto Total": 68000},
+            {"2021-02-16": [
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 9000, "Detalles": "Por ser la persona # 52 en solicitar un canal de telegram"}],
+             "Monto Total": 19000},
+            {"2021-02-13": [
+              {"Monto": 5000, "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
+             "Monto Total": 5000}
+           ]
+},
+  {
   "Nombre": "Erick A. Fonseca Pérez",
   "Total de Creditos": "954000",
   "Gremio": "NIL",
@@ -679,7 +865,7 @@
            ]
 },
   {
-  "Nombre": "Lia de la Concepción Zerquera Ferrer",
+  "Nombre": "Lia Zerquera Ferrer",
   "Total de Creditos": "892000",
   "Gremio": "NIL",
   "Frase de estado": "NIL",
@@ -779,59 +965,8 @@
            ]
 },
   {
-  "Nombre": "Lázaro Daniel González Martínez",
-  "Total de Creditos": "873000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-12": [
-              {"Monto": 30000, "Detalles": "Por preguntar las características de las aritméticas de la máquina. en conferencia 2"}],
-             "Monto Total": 30000},
-            {"2021-03-10": [
-              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": 50000},
-            {"2021-03-09": [
-              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
-              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio  9 completo"},
-              {"Monto": 45000, "Detalles": "Por CP 0 ejercicio 10 completo"},
-              {"Monto": 50000, "Detalles": "Por CP 0 ejercicio 11 completo"},
-              {"Monto": 80000, "Detalles": "Por CP 0 ejercicio 12 completo"},
-              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio 13 completo"},
-              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"},
-              {"Monto": 80000, "Detalles": "Por CP 0 pregunta secreta 2 entregada antes"}],
-             "Monto Total": 645000},
-            {"2021-02-26": [
-              {"Monto": 2000, "Detalles": "Por Mantener el orden y la higiene en los canales y los grupos."}],
-             "Monto Total": 2000},
-            {"2021-02-22": [
-              {"Monto": 5000, "Detalles": "Por La idea de ponerle el mismo libro a todos los profesores"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"},
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 0"}],
-             "Monto Total": 45000},
-            {"2021-02-17": [
-              {"Monto": 10000, "Detalles": "Por recomendar el libro Tom Sawyer"},
-              {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la conferencia 0"}],
-             "Monto Total": 13000},
-            {"2021-02-16": [
-              {"Monto": 40000, "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."},
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 8000, "Detalles": "Por ser la persona # 53 en solicitar un canal de telegram"}],
-             "Monto Total": 58000},
-            {"2021-02-11": [
-              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": 30000}
-           ]
-},
-  {
   "Nombre": "Dianelys Cruz Mengana",
-  "Total de Creditos": "822500",
+  "Total de Creditos": "858500",
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
@@ -862,8 +997,10 @@
               {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"}],
              "Monto Total": 507500},
             {"2021-03-07": [
+              {"Monto": 16000, "Detalles": "Por rectificar errores ortograficos (16) en primera version de la conferencia 1"},
+              {"Monto": 20000, "Detalles": "Por encontrar error en primera version de la conferencia 1"},
               {"Monto": 10000, "Detalles": "Por hacer que el profesor subiera un libro que faltaba."}],
-             "Monto Total": 10000},
+             "Monto Total": 46000},
             {"2021-03-02": [
               {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 1"}],
              "Monto Total": 3000},
@@ -883,66 +1020,51 @@
            ]
 },
   {
-  "Nombre": "Roxana Peña Mendieta",
-  "Total de Creditos": "797000",
+  "Nombre": "Anet Maria Rodriguez Cadalso",
+  "Total de Creditos": "783000",
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-12": [
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: Libro el quijote"}],
+             "Monto Total": 10000},
+            {"2021-03-11": [
+              {"Monto": 13000, "Detalles": "Por rectificar errores ortograficos (13) en primera version de la conferencia 0"}],
+             "Monto Total": 13000},
             {"2021-03-10": [
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 2"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
-              {"Monto": 20000, "Detalles": "Por calcular el valor del espaciamiento en conferencia 1"},
-              {"Monto": 12000, "Detalles": "Por rectificar errores ortograficos (12) en primera version de la conferencia 2"},
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: espada laser para defenderse de los profesores de 4to grado"}],
-             "Monto Total": 73000},
-            {"2021-03-09": [
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
               {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
               {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
               {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
               {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
               {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
               {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
               {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"}],
-             "Monto Total": 480000},
-            {"2021-03-03": [
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"}],
+              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": 610000},
+            {"2021-02-24": [
+              {"Monto": 5000, "Detalles": "Por propuesta de establecer espacio para las solucioens y dudas de los ejercicios de CP"}],
+             "Monto Total": 5000},
+            {"2021-02-21": [
+              {"Monto": 1000, "Detalles": "Por sugerir que la ortografía se publique en el canal"}],
+             "Monto Total": 1000},
+            {"2021-02-18": [
+              {"Monto": 20000, "Detalles": "Por vincular su propuesta de libro con la carrera e impresionar con su prosa a un escritor profesional"},
+              {"Monto": 10000, "Detalles": "Por recomendar el libro El Quijote"}],
              "Monto Total": 30000},
-            {"2021-03-02": [
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con clase práctica 1"},
-              {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 1"}],
-             "Monto Total": 13000},
-            {"2021-02-26": [
-              {"Monto": 19000, "Detalles": "Por rectificar errores ortograficos (19) en primera version de la conferencia 1"},
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
-             "Monto Total": 89000},
-            {"2021-02-23": [
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme"}],
-             "Monto Total": 10000},
-            {"2021-02-22": [
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme"}],
-             "Monto Total": 10000},
             {"2021-02-17": [
-              {"Monto": 10000, "Detalles": "Por recomendar el libro El padrino"},
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"},
-              {"Monto": 10000, "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"},
-              {"Monto": 7000, "Detalles": "Por rectificar errores ortograficos (7) en primera version de la conferencia 0"},
-              {"Monto": 40000, "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."}],
-             "Monto Total": 68000},
-            {"2021-02-16": [
+              {"Monto": 6000, "Detalles": "Por rectificar errores ortograficos (6) en primera version de la conferencia 0"}],
+             "Monto Total": 6000},
+            {"2021-02-15": [
+              {"Monto": 20000, "Detalles": "Por identificar 2 recomendaciones de libros de los profesores."},
               {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 9000, "Detalles": "Por ser la persona # 52 en solicitar un canal de telegram"}],
-             "Monto Total": 19000},
-            {"2021-02-13": [
-              {"Monto": 5000, "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
-             "Monto Total": 5000}
+              {"Monto": 48000, "Detalles": "Por ser la persona # 13 en solicitar un canal de telegram"}],
+             "Monto Total": 78000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
            ]
 },
   {
@@ -1071,72 +1193,6 @@
            ]
 },
   {
-  "Nombre": "Hansel Blanco Martí",
-  "Total de Creditos": "727000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-11": [
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": 6000, "Detalles": "Por rectificar errores ortograficos (6) en primera version de la conferencia 1"},
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: El móvil, porque también se adapta a estas formas de clases a distancia."},
-              {"Monto": 5000, "Detalles": "Por encontrar error en primera version de la conferencia 2"}],
-             "Monto Total": 41000},
-            {"2021-03-10": [
-              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": 15000, "Detalles": "Por CP 0 ejercicio  2 (incisos A, B) entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"},
-              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": 315000},
-            {"2021-03-05": [
-              {"Monto": 20000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": 50000, "Detalles": "Por encontrar error en primera version de la conferencia 2"}],
-             "Monto Total": 90000},
-            {"2021-02-27": [
-              {"Monto": 10000, "Detalles": "Por descargar libro Computing with IEEE 754"}],
-             "Monto Total": 10000},
-            {"2021-02-26": [
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"}],
-             "Monto Total": 10000},
-            {"2021-02-25": [
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"},
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"},
-              {"Monto": 30000, "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 0"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"}],
-             "Monto Total": 100000},
-            {"2021-02-22": [
-              {"Monto": 2000, "Detalles": "Por Dos pifias del profesor al pasar sus créditos"}],
-             "Monto Total": 2000},
-            {"2021-02-21": [
-              {"Monto": 1000, "Detalles": "Por exigir un OK en la confirmación del canal :-P"}],
-             "Monto Total": 1000},
-            {"2021-02-19": [
-              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"}],
-             "Monto Total": 10000},
-            {"2021-02-17": [
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 0"},
-              {"Monto": 10000, "Detalles": "Por recomendar el libro The art of hapinnes"},
-              {"Monto": 5000, "Detalles": "Por rectificar errores ortograficos (5) en primera version de la conferencia 0"}],
-             "Monto Total": 25000},
-            {"2021-02-15": [
-              {"Monto": 30000, "Detalles": "Por identificar 3 recomendaciones de libros de los profesores."},
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 53000, "Detalles": "Por ser la persona # 8 en solicitar un canal de telegram"}],
-             "Monto Total": 93000},
-            {"2021-02-11": [
-              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": 30000}
-           ]
-},
-  {
   "Nombre": "Yisell Martínez Noa",
   "Total de Creditos": "698000",
   "Gremio": "NIL",
@@ -1174,6 +1230,57 @@
               {"Monto": 50000, "Detalles": "Por Créditos por responder una pregunta que se hizo en el grupo y que nadie más había respondido."},
               {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
              "Monto Total": 80000}
+           ]
+},
+  {
+  "Nombre": "Andry Rosquet",
+  "Total de Creditos": "669000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-12": [
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: el celular"},
+              {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 2"}],
+             "Monto Total": 13000},
+            {"2021-03-09": [
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 8000, "Detalles": "Por CP 0 ejercicio  5 (inciso A) entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio 10 (inciso C) entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"}],
+             "Monto Total": 408000},
+            {"2021-03-01": [
+              {"Monto": 20000, "Detalles": "Por calcular el valor del espaciamiento en conferencia 1"}],
+             "Monto Total": 20000},
+            {"2021-02-26": [
+              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"},
+              {"Monto": 10000, "Detalles": "Por solicitar actividad opcional en conferencia 1"}],
+             "Monto Total": 20000},
+            {"2021-02-19": [
+              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"},
+              {"Monto": 50000, "Detalles": "Por recomendar 2 libros para la clase práctica 0"}],
+             "Monto Total": 60000},
+            {"2021-02-18": [
+              {"Monto": 60000, "Detalles": "Por hacer 6 memes relacionado con conferencia 0"},
+              {"Monto": 2000, "Detalles": "Por rectificar errores ortograficos (2) en segunda version de la conferencia 0"},
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"}],
+             "Monto Total": 63000},
+            {"2021-02-17": [
+              {"Monto": 10000, "Detalles": "Por recomendar el libro El señor de los anillos"},
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la conferencia 0"}],
+             "Monto Total": 11000},
+            {"2021-02-16": [
+              {"Monto": 40000, "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."}],
+             "Monto Total": 40000},
+            {"2021-02-15": [
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 14000, "Detalles": "Por ser la persona # 47 en solicitar un canal de telegram"},
+              {"Monto": 10000, "Detalles": "Por Provocar bug en el sistema de los créditos :-/, y permitir que se pueda arreglar :-)"}],
+             "Monto Total": 34000}
            ]
 },
   {
@@ -1337,6 +1444,45 @@
            ]
 },
   {
+  "Nombre": "Emmanuel Torres González",
+  "Total de Creditos": "629000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-09": [
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio  4 (incisos A, C) entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
+              {"Monto": 80000, "Detalles": "Por CP 0 pregunta secreta 4 entregada antes"}],
+             "Monto Total": 540000},
+            {"2021-03-05": [
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": 2000, "Detalles": "Por rectificar errores ortograficos (2) en primera version de la conferencia 0"}],
+             "Monto Total": 12000},
+            {"2021-02-19": [
+              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"}],
+             "Monto Total": 10000},
+            {"2021-02-17": [
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la conferencia 0"}],
+             "Monto Total": 1000},
+            {"2021-02-16": [
+              {"Monto": 20000, "Detalles": "Por identificar 2 recomendaciones de libros de los profesores."}],
+             "Monto Total": 20000},
+            {"2021-02-15": [
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 31000, "Detalles": "Por ser la persona # 30 en solicitar un canal de telegram"}],
+             "Monto Total": 41000},
+            {"2021-02-13": [
+              {"Monto": 5000, "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
+             "Monto Total": 5000}
+           ]
+},
+  {
   "Nombre": "Félix Daniel Acosta Rodríguez",
   "Total de Creditos": "628000",
   "Gremio": "NIL",
@@ -1395,52 +1541,53 @@
            ]
 },
   {
-  "Nombre": "Andry Rosquet",
-  "Total de Creditos": "559000",
+  "Nombre": "Alejandro Yero Valdez",
+  "Total de Creditos": "568000",
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
-            {"2021-03-12": [
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: el celular"},
-              {"Monto": 3000, "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 2"}],
-             "Monto Total": 13000},
             {"2021-03-09": [
               {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
               {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  4 (inciso C) entregado antes"},
-              {"Monto": 8000, "Detalles": "Por CP 0 ejercicio  5 (inciso A) entregado antes"},
-              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio 10 (inciso C) entregado antes"},
-              {"Monto": 160000, "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"}],
-             "Monto Total": 298000},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 pregunta secreta 4"}],
+             "Monto Total": 390000},
+            {"2021-03-05": [
+              {"Monto": 10000, "Detalles": "Por Es un alumno que pregunta en conferencia si el error es absoluto o relativo. Estaba en la original y se lo atribuyó. en conferencia 2"}],
+             "Monto Total": 10000},
             {"2021-03-01": [
-              {"Monto": 20000, "Detalles": "Por calcular el valor del espaciamiento en conferencia 1"}],
-             "Monto Total": 20000},
-            {"2021-02-26": [
-              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"},
-              {"Monto": 10000, "Detalles": "Por solicitar actividad opcional en conferencia 1"}],
-             "Monto Total": 20000},
-            {"2021-02-19": [
-              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"},
-              {"Monto": 50000, "Detalles": "Por recomendar 2 libros para la clase práctica 0"}],
-             "Monto Total": 60000},
-            {"2021-02-18": [
-              {"Monto": 60000, "Detalles": "Por hacer 6 memes relacionado con conferencia 0"},
-              {"Monto": 2000, "Detalles": "Por rectificar errores ortograficos (2) en segunda version de la conferencia 0"},
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la clase práctica 1"},
+              {"Monto": 20000, "Detalles": "Por proponer cambio en clase práctica 1: ¿el ejercicio 6 debería llamarse cuando 1 + 1 no siempre es 2? :-/"}],
+             "Monto Total": 30000},
+            {"2021-02-28": [
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 1"},
+              {"Monto": 6000, "Detalles": "Por rectificar errores ortograficos (6) en primera version de la conferencia 1"}],
+             "Monto Total": 16000},
+            {"2021-02-21": [
+              {"Monto": 1000, "Detalles": "Por buscar el significado de palabras raras que aparecen en los documentos de la asignatura (profore)"},
               {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"}],
-             "Monto Total": 63000},
+             "Monto Total": 2000},
             {"2021-02-17": [
-              {"Monto": 10000, "Detalles": "Por recomendar el libro El señor de los anillos"},
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la conferencia 0"}],
-             "Monto Total": 11000},
-            {"2021-02-16": [
-              {"Monto": 40000, "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."}],
+              {"Monto": 30000, "Detalles": "Por hacer 3 memes relacionado con conferencia 0"},
+              {"Monto": 10000, "Detalles": "Por recomendar el libro 1984"}],
              "Monto Total": 40000},
+            {"2021-02-16": [
+              {"Monto": 10000, "Detalles": "Por identificar 1 recomendación de libros de los profesores."},
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"},
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"}],
+             "Monto Total": 21000},
             {"2021-02-15": [
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 14000, "Detalles": "Por ser la persona # 47 en solicitar un canal de telegram"},
-              {"Monto": 10000, "Detalles": "Por Provocar bug en el sistema de los créditos :-/, y permitir que se pueda arreglar :-)"}],
-             "Monto Total": 34000}
+              {"Monto": 49000, "Detalles": "Por ser la persona # 12 en solicitar un canal de telegram"}],
+             "Monto Total": 49000},
+            {"2021-02-13": [
+              {"Monto": 10000, "Detalles": "Por Créditos por haber entrado al canal de telegram el sabado"}],
+             "Monto Total": 10000}
            ]
 },
   {
@@ -1474,6 +1621,42 @@
             {"2021-02-15": [
               {"Monto": 47000, "Detalles": "Por ser la persona # 14 en solicitar un canal de telegram"}],
              "Monto Total": 47000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
+  "Nombre": "Jesús Santos Capote",
+  "Total de Creditos": "508000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-10": [
+              {"Monto": 20000, "Detalles": "Por hacer ejercicio 1 de conferencia 2 donde pedían Mostrar por qué la condición se puede aproximar por la expresión que tiene la derivada."},
+              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": 70000},
+            {"2021-03-09": [
+              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio  4 (incisos A, B) entregado antes"},
+              {"Monto": 32000, "Detalles": "Por CP 0 ejercicio  5 (incisos A, C) entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"}],
+             "Monto Total": 332000},
+            {"2021-03-02": [
+              {"Monto": 5000, "Detalles": "Por esfuerzo al buscar la pregunta secreta en CP 1."}],
+             "Monto Total": 5000},
+            {"2021-02-17": [
+              {"Monto": 10000, "Detalles": "Por recomendar el libro Cien años de soledad"}],
+             "Monto Total": 10000},
+            {"2021-02-15": [
+              {"Monto": 0, "Detalles": "Por identificar 0 recomendaciones de libros de los profesores."},
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 51000, "Detalles": "Por ser la persona # 10 en solicitar un canal de telegram"}],
+             "Monto Total": 61000},
             {"2021-02-11": [
               {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
              "Monto Total": 30000}
@@ -1514,51 +1697,6 @@
             {"2021-02-13": [
               {"Monto": 5000, "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
              "Monto Total": 5000}
-           ]
-},
-  {
-  "Nombre": "Anet Maria Rodriguez Cadalso",
-  "Total de Creditos": "503000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-12": [
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: Libro el quijote"}],
-             "Monto Total": 10000},
-            {"2021-03-11": [
-              {"Monto": 13000, "Detalles": "Por rectificar errores ortograficos (13) en primera version de la conferencia 0"}],
-             "Monto Total": 13000},
-            {"2021-03-10": [
-              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
-              {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
-              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": 330000},
-            {"2021-02-24": [
-              {"Monto": 5000, "Detalles": "Por propuesta de establecer espacio para las solucioens y dudas de los ejercicios de CP"}],
-             "Monto Total": 5000},
-            {"2021-02-21": [
-              {"Monto": 1000, "Detalles": "Por sugerir que la ortografía se publique en el canal"}],
-             "Monto Total": 1000},
-            {"2021-02-18": [
-              {"Monto": 20000, "Detalles": "Por vincular su propuesta de libro con la carrera e impresionar con su prosa a un escritor profesional"},
-              {"Monto": 10000, "Detalles": "Por recomendar el libro El Quijote"}],
-             "Monto Total": 30000},
-            {"2021-02-17": [
-              {"Monto": 6000, "Detalles": "Por rectificar errores ortograficos (6) en primera version de la conferencia 0"}],
-             "Monto Total": 6000},
-            {"2021-02-15": [
-              {"Monto": 20000, "Detalles": "Por identificar 2 recomendaciones de libros de los profesores."},
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 48000, "Detalles": "Por ser la persona # 13 en solicitar un canal de telegram"}],
-             "Monto Total": 78000},
-            {"2021-02-11": [
-              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": 30000}
            ]
 },
   {
@@ -1642,6 +1780,36 @@
             {"2021-02-13": [
               {"Monto": 5000, "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
              "Monto Total": 5000}
+           ]
+},
+  {
+  "Nombre": "Lauren Guerra Hernández",
+  "Total de Creditos": "462000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-09": [
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"}],
+             "Monto Total": 390000},
+            {"2021-02-18": [
+              {"Monto": 10000, "Detalles": "Por recomendar el libro El arte de amar"}],
+             "Monto Total": 10000},
+            {"2021-02-15": [
+              {"Monto": 20000, "Detalles": "Por identificar 2 recomendaciones de libros de los profesores."},
+              {"Monto": 12000, "Detalles": "Por ser la persona # 49 en solicitar un canal de telegram"},
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"}],
+             "Monto Total": 42000},
+            {"2021-02-12": [
+              {"Monto": 20000, "Detalles": "Por Créditos por haber entrado al canal de telegram el viernes"}],
+             "Monto Total": 20000}
            ]
 },
   {
@@ -1770,41 +1938,6 @@
               {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
               {"Monto": 46000, "Detalles": "Por ser la persona # 15 en solicitar un canal de telegram"}],
              "Monto Total": 56000},
-            {"2021-02-11": [
-              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": 30000}
-           ]
-},
-  {
-  "Nombre": "Jesús Santos Capote",
-  "Total de Creditos": "408000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-10": [
-              {"Monto": 20000, "Detalles": "Por hacer ejercicio 1 de conferencia 2 donde pedían Mostrar por qué la condición se puede aproximar por la expresión que tiene la derivada."},
-              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": 70000},
-            {"2021-03-09": [
-              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
-              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio  4 (incisos A, B) entregado antes"},
-              {"Monto": 32000, "Detalles": "Por CP 0 ejercicio  5 (incisos A, C) entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"}],
-             "Monto Total": 232000},
-            {"2021-03-02": [
-              {"Monto": 5000, "Detalles": "Por esfuerzo al buscar la pregunta secreta en CP 1."}],
-             "Monto Total": 5000},
-            {"2021-02-17": [
-              {"Monto": 10000, "Detalles": "Por recomendar el libro Cien años de soledad"}],
-             "Monto Total": 10000},
-            {"2021-02-15": [
-              {"Monto": 0, "Detalles": "Por identificar 0 recomendaciones de libros de los profesores."},
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 51000, "Detalles": "Por ser la persona # 10 en solicitar un canal de telegram"}],
-             "Monto Total": 61000},
             {"2021-02-11": [
               {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
              "Monto Total": 30000}
@@ -2120,6 +2253,30 @@
            ]
 },
   {
+  "Nombre": "José Luis Leiva Fleitas",
+  "Total de Creditos": "237000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-09": [
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"}],
+             "Monto Total": 160000},
+            {"2021-03-02": [
+              {"Monto": 10000, "Detalles": "Por pregunta difícil: Por qué las aritméticas tienen que estar normalizadas?"}],
+             "Monto Total": 10000},
+            {"2021-02-16": [
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 27000, "Detalles": "Por ser la persona # 34 en solicitar un canal de telegram"}],
+             "Monto Total": 37000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
   "Nombre": "Arian Pazo Valido",
   "Total de Creditos": "203000",
   "Gremio": "NIL",
@@ -2175,44 +2332,6 @@
            ]
 },
   {
-  "Nombre": "Alejandro Yero Valdez",
-  "Total de Creditos": "178000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-05": [
-              {"Monto": 10000, "Detalles": "Por Es un alumno que pregunta en conferencia si el error es absoluto o relativo. Estaba en la original y se lo atribuyó. en conferencia 2"}],
-             "Monto Total": 10000},
-            {"2021-03-01": [
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la clase práctica 1"},
-              {"Monto": 20000, "Detalles": "Por proponer cambio en clase práctica 1: ¿el ejercicio 6 debería llamarse cuando 1 + 1 no siempre es 2? :-/"}],
-             "Monto Total": 30000},
-            {"2021-02-28": [
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 1"},
-              {"Monto": 6000, "Detalles": "Por rectificar errores ortograficos (6) en primera version de la conferencia 1"}],
-             "Monto Total": 16000},
-            {"2021-02-21": [
-              {"Monto": 1000, "Detalles": "Por buscar el significado de palabras raras que aparecen en los documentos de la asignatura (profore)"},
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"}],
-             "Monto Total": 2000},
-            {"2021-02-17": [
-              {"Monto": 30000, "Detalles": "Por hacer 3 memes relacionado con conferencia 0"},
-              {"Monto": 10000, "Detalles": "Por recomendar el libro 1984"}],
-             "Monto Total": 40000},
-            {"2021-02-16": [
-              {"Monto": 10000, "Detalles": "Por identificar 1 recomendación de libros de los profesores."},
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"},
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"}],
-             "Monto Total": 21000},
-            {"2021-02-15": [
-              {"Monto": 49000, "Detalles": "Por ser la persona # 12 en solicitar un canal de telegram"}],
-             "Monto Total": 49000},
-            {"2021-02-13": [
-              {"Monto": 10000, "Detalles": "Por Créditos por haber entrado al canal de telegram el sabado"}],
-             "Monto Total": 10000}
-           ]
-},
-  {
   "Nombre": "Deborah Famadas Rodríguez",
   "Total de Creditos": "133000",
   "Gremio": "NIL",
@@ -2228,71 +2347,6 @@
             {"2021-02-11": [
               {"Monto": 100000, "Detalles": "Por Permitir que los profesores supieran cómo inscribir a los alumnos en el curso en el EVEA :-o"}],
              "Monto Total": 100000}
-           ]
-},
-  {
-  "Nombre": "Emmanuel Torres González",
-  "Total de Creditos": "89000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-05": [
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": 2000, "Detalles": "Por rectificar errores ortograficos (2) en primera version de la conferencia 0"}],
-             "Monto Total": 12000},
-            {"2021-02-19": [
-              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"}],
-             "Monto Total": 10000},
-            {"2021-02-17": [
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la conferencia 0"}],
-             "Monto Total": 1000},
-            {"2021-02-16": [
-              {"Monto": 20000, "Detalles": "Por identificar 2 recomendaciones de libros de los profesores."}],
-             "Monto Total": 20000},
-            {"2021-02-15": [
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 31000, "Detalles": "Por ser la persona # 30 en solicitar un canal de telegram"}],
-             "Monto Total": 41000},
-            {"2021-02-13": [
-              {"Monto": 5000, "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
-             "Monto Total": 5000}
-           ]
-},
-  {
-  "Nombre": "José Luis Leiva Fleitas",
-  "Total de Creditos": "77000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-02": [
-              {"Monto": 10000, "Detalles": "Por pregunta difícil: Por qué las aritméticas tienen que estar normalizadas?"}],
-             "Monto Total": 10000},
-            {"2021-02-16": [
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 27000, "Detalles": "Por ser la persona # 34 en solicitar un canal de telegram"}],
-             "Monto Total": 37000},
-            {"2021-02-11": [
-              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": 30000}
-           ]
-},
-  {
-  "Nombre": "Lauren Guerra Hernández",
-  "Total de Creditos": "72000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-02-18": [
-              {"Monto": 10000, "Detalles": "Por recomendar el libro El arte de amar"}],
-             "Monto Total": 10000},
-            {"2021-02-15": [
-              {"Monto": 20000, "Detalles": "Por identificar 2 recomendaciones de libros de los profesores."},
-              {"Monto": 12000, "Detalles": "Por ser la persona # 49 en solicitar un canal de telegram"},
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"}],
-             "Monto Total": 42000},
-            {"2021-02-12": [
-              {"Monto": 20000, "Detalles": "Por Créditos por haber entrado al canal de telegram el viernes"}],
-             "Monto Total": 20000}
            ]
 },
   {
