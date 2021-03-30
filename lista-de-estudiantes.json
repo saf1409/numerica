@@ -328,6 +328,95 @@
            ]
 },
   {
+  "Nombre": "Lia Zerquera Ferrer",
+  "Total de Creditos": "3074000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-03-29": [
+              {"Monto": 20000, "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 1 ejercicio  3 (incisos A, B) entregado antes"},
+              {"Monto": 80000, "Detalles": "Por CP 1 ejercicio  4 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 1 ejercicio  5 completo entregado antes"},
+              {"Monto": 80000, "Detalles": "Por CP 1 ejercicio  6 completo entregado antes"},
+              {"Monto": 120000, "Detalles": "Por CP 1 ejercicio  7 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 1 ejercicio  8 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 1 ejercicio  9 completo entregado antes"},
+              {"Monto": 160000, "Detalles": "Por CP 1 ejercicio 12 completo entregado antes"},
+              {"Monto": 300000, "Detalles": "Por CP 1 ejercicio 13 completo entregado antes"},
+              {"Monto": 400000, "Detalles": "Por CP 1 ejercicio 14 completo entregado antes"},
+              {"Monto": 10000, "Detalles": "Por CP 1 pregunta secreta 1"},
+              {"Monto": 10000, "Detalles": "Por CP 1 pregunta secreta 2"},
+              {"Monto": 20000, "Detalles": "Por CP 1 pregunta secreta 3"},
+              {"Monto": 40000, "Detalles": "Por CP 1 pregunta secreta 4"},
+              {"Monto": 100000, "Detalles": "Por identificar 2 aplicaciones de varios sistemas con la misma matriz A (Solución de sistemas usando la PLU, Cálculo del determinante)"},
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 3: 1 er día Pero esto que eeeeeeh  porque hay  alguien de Japón , Oh mira que cool esas matrices eficientes y cómo cambiar filas y columnas con la matriz de permutaciones. 2 do día Regresando al mundo de las matrices (Gauss ) y haciendo que la profe Celia se sienta orgullosa. 3 er día el Profe Shifu y las técnicas legendarias de pivoteo para disminuir el error en una aritmética de punto flotante. 4to día Buscando la matriz de trabajo para que los profesores se EDA no se molesten. 5to día Averiguando la utilidad de todo lo que hemos hecho."},
+              {"Monto": 200000, "Detalles": "Por deducir el funcionamiento de la matriz de trabajo"},
+              {"Monto": 90000, "Detalles": "Por conocer 3 estretegias de pivote"}],
+             "Monto Total": 2060000},
+            {"2021-03-18": [
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 1"},
+              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la conferencia 1"},
+              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 3"}],
+             "Monto Total": 21000},
+            {"2021-03-17": [
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 3: Una gran aventura en busca de la eficiencia ¿podremos encontrarla ?"}],
+             "Monto Total": 10000},
+            {"2021-03-12": [
+              {"Monto": 30000, "Detalles": "Por actividad opcional en conferencia 2: Las reliquias de la numérica: varita de épsilon, capa de Taylor, piedra del =="}],
+             "Monto Total": 30000},
+            {"2021-03-11": [
+              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: Martillo de Thor con el épsilon de la máquina"},
+              {"Monto": 5000, "Detalles": "Por encontrar error en primera version de la conferencia 2"}],
+             "Monto Total": 15000},
+            {"2021-03-10": [
+              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": 50000},
+            {"2021-03-09": [
+              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio  4 (incisos A, B) entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  9 (incisos A, C) entregado antes"},
+              {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
+              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
+              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
+              {"Monto": 80000, "Detalles": "Por CP 0 pregunta secreta 4 entregada antes"}],
+             "Monto Total": 650000},
+            {"2021-03-07": [
+              {"Monto": 91000, "Detalles": "Por obtener lugar 8 en el concurso por el 14 de febrero"}],
+             "Monto Total": 91000},
+            {"2021-02-28": [
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"},
+              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
+             "Monto Total": 30000},
+            {"2021-02-24": [
+              {"Monto": 1000, "Detalles": "Por crear ambiente adecuado (redobles) antes de que el profe hiciera el resumen"}],
+             "Monto Total": 1000},
+            {"2021-02-19": [
+              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"}],
+             "Monto Total": 10000},
+            {"2021-02-17": [
+              {"Monto": 10000, "Detalles": "Por identificar 1 recomendación de libros de los profesores."},
+              {"Monto": 10000, "Detalles": "Por recomendar el libro El principito"},
+              {"Monto": 10000, "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"}],
+             "Monto Total": 30000},
+            {"2021-02-15": [
+              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": 36000, "Detalles": "Por ser la persona # 25 en solicitar un canal de telegram"}],
+             "Monto Total": 46000},
+            {"2021-02-11": [
+              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
+             "Monto Total": 30000}
+           ]
+},
+  {
   "Nombre": "Alejandra Monzón Peña",
   "Total de Creditos": "3046000",
   "Gremio": "NIL",
@@ -2264,79 +2353,6 @@
               {"Monto": 50000, "Detalles": "Por Créditos por ser de otra facultad y aún así querer pasar la asignatura"},
               {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
              "Monto Total": 80000}
-           ]
-},
-  {
-  "Nombre": "Lia Zerquera Ferrer",
-  "Total de Creditos": "1414000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-29": [
-              {"Monto": 100000, "Detalles": "Por identificar 2 aplicaciones de varios sistemas con la misma matriz A (Solución de sistemas usando la PLU, Cálculo del determinante)"},
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 3: 1 er día Pero esto que eeeeeeh  porque hay  alguien de Japón , Oh mira que cool esas matrices eficientes y cómo cambiar filas y columnas con la matriz de permutaciones 2 do día Regresando al mundo de las matrices (Gauss ) y haciendo que la profe Celia se sienta orgullosa 3 er día el Profe Shifu y las técnicas legendarias de pivoteo para disminuir el error en una aritmética de punto flotante 4to día Buscando la matriz de trabajo para que los profesores se EDA no se molesten 5to día Averiguando la utilidad de todo lo que hemos hecho."},
-              {"Monto": 200000, "Detalles": "Por deducir el funcionamiento de la matriz de trabajo"},
-              {"Monto": 90000, "Detalles": "Por conocer 3 estretegias de pivote"}],
-             "Monto Total": 400000},
-            {"2021-03-18": [
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 1"},
-              {"Monto": 1000, "Detalles": "Por rectificar errores ortograficos (1) en primera version de la conferencia 1"},
-              {"Monto": 10000, "Detalles": "Por encontrar error en primera version de la conferencia 3"}],
-             "Monto Total": 21000},
-            {"2021-03-17": [
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 3: Una gran aventura en busca de la eficiencia ¿podremos encontrarla ?"}],
-             "Monto Total": 10000},
-            {"2021-03-12": [
-              {"Monto": 30000, "Detalles": "Por actividad opcional en conferencia 2: Las reliquias de la numérica: varita de épsilon, capa de Taylor, piedra del =="}],
-             "Monto Total": 30000},
-            {"2021-03-11": [
-              {"Monto": 10000, "Detalles": "Por actividad opcional en conferencia 2: Martillo de Thor con el épsilon de la máquina"},
-              {"Monto": 5000, "Detalles": "Por encontrar error en primera version de la conferencia 2"}],
-             "Monto Total": 15000},
-            {"2021-03-10": [
-              {"Monto": 50000, "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": 50000},
-            {"2021-03-09": [
-              {"Monto": 10000, "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": 20000, "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
-              {"Monto": 30000, "Detalles": "Por CP 0 ejercicio  4 (incisos A, B) entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
-              {"Monto": 40000, "Detalles": "Por CP 0 ejercicio  9 (incisos A, C) entregado antes"},
-              {"Monto": 90000, "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
-              {"Monto": 100000, "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
-              {"Monto": 60000, "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
-              {"Monto": 80000, "Detalles": "Por CP 0 pregunta secreta 4 entregada antes"}],
-             "Monto Total": 650000},
-            {"2021-03-07": [
-              {"Monto": 91000, "Detalles": "Por obtener lugar 8 en el concurso por el 14 de febrero"}],
-             "Monto Total": 91000},
-            {"2021-02-28": [
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"},
-              {"Monto": 10000, "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
-             "Monto Total": 30000},
-            {"2021-02-24": [
-              {"Monto": 1000, "Detalles": "Por crear ambiente adecuado (redobles) antes de que el profe hiciera el resumen"}],
-             "Monto Total": 1000},
-            {"2021-02-19": [
-              {"Monto": 10000, "Detalles": "Por saber donde quedan las aulas de la facultad"}],
-             "Monto Total": 10000},
-            {"2021-02-17": [
-              {"Monto": 10000, "Detalles": "Por identificar 1 recomendación de libros de los profesores."},
-              {"Monto": 10000, "Detalles": "Por recomendar el libro El principito"},
-              {"Monto": 10000, "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"}],
-             "Monto Total": 30000},
-            {"2021-02-15": [
-              {"Monto": 10000, "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": 36000, "Detalles": "Por ser la persona # 25 en solicitar un canal de telegram"}],
-             "Monto Total": 46000},
-            {"2021-02-11": [
-              {"Monto": 30000, "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": 30000}
            ]
 },
   {
