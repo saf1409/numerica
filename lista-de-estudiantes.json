@@ -77,6 +77,111 @@
            ]
 },
   {
+  "Nombre": "Javier Alejandro Oramas López",
+  "Total de Creditos": " 4,404,000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-05-02": [
+              {"Monto": "   300,000", "Detalles": "Por Ejercicio 2 del día 2 de la actividad 3 completo"},
+              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 5"}],
+             "Monto Total": "   320,000"},
+            {"2021-04-01": [
+              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 4"},
+              {"Monto": "   200,000", "Detalles": "Por obtener factorizacion PLU a partir de la LU"},
+              {"Monto": "   300,000", "Detalles": "Por demostrar que el producto de k matrices eficientes es eficente"},
+              {"Monto": "   130,000", "Detalles": "Por Ejercicio 1 del día 2 de la actividad 3 completo"},
+              {"Monto": "    70,000", "Detalles": "Por Ejercicio 4 del día 1 de la actividad 3 completo"},
+              {"Monto": "   100,000", "Detalles": "Por deducir uso del vector de permutaciones"},
+              {"Monto": "   120,000", "Detalles": "Por identificar 4 matrices eficientes (diagonal, triangulares-superior, triangular-inferior, ortogonal)"}],
+             "Monto Total": "   921,000"},
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
+            {"2021-03-27": [
+              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 1 ejercicio  3 completo entregado antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  4 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  5 completo entregado antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  6 completo entregado antes"},
+              {"Monto": "   120,000", "Detalles": "Por CP 1 ejercicio  7 completo entregado antes"},
+              {"Monto": "   160,000", "Detalles": "Por CP 1 ejercicio  8 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  9 completo entregado antes"},
+              {"Monto": "   160,000", "Detalles": "Por CP 1 ejercicio 12 completo entregado antes"},
+              {"Monto": "   300,000", "Detalles": "Por CP 1 ejercicio 13 completo entregado antes"},
+              {"Monto": "   400,000", "Detalles": "Por CP 1 ejercicio 14 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 1 entregada antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 2 entregada antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 1 pregunta secreta 3 entregada antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 1 pregunta secreta 4 entregada antes"}],
+             "Monto Total": " 1,760,000"},
+            {"2021-03-18": [
+              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 3"}],
+             "Monto Total": "    10,000"},
+            {"2021-03-17": [
+              {"Monto": "    20,000", "Detalles": "Por hacer ejercicio 1 de conferencia 2 donde pedían Mostrar por qué la condición se puede aproximar por la expresión que tiene la derivada."}],
+             "Monto Total": "    20,000"},
+            {"2021-03-10": [
+              {"Monto": "    50,000", "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": "    50,000"},
+            {"2021-03-09": [
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
+              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 2"},
+              {"Monto": "     5,000", "Detalles": "Por encontrar error en primera version de la clase práctica 2"},
+              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 2"},
+              {"Monto": "    10,000", "Detalles": "Por actividad opcional en conferencia 2: Amuleto anti maldiciones imperdonables"},
+              {"Monto": "    10,000", "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": "    90,000", "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
+              {"Monto": "   160,000", "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 0 pregunta secreta 2 entregada antes"}],
+             "Monto Total": "   926,000"},
+            {"2021-03-07": [
+              {"Monto": "   124,000", "Detalles": "Por obtener lugar 6 en el concurso por el 14 de febrero"}],
+             "Monto Total": "   124,000"},
+            {"2021-03-05": [
+              {"Monto": "     3,000", "Detalles": "Por rectificar errores ortograficos (3) en primera version de la conferencia 2"}],
+             "Monto Total": "     3,000"},
+            {"2021-02-26": [
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
+              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
+             "Monto Total": "    50,000"},
+            {"2021-02-19": [
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con clase práctica 0"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"}],
+             "Monto Total": "    20,000"},
+            {"2021-02-17": [
+              {"Monto": "    10,000", "Detalles": "Por uso de su imagen de manera explícita :-P en conferencia 0"},
+              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 0"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 0"},
+              {"Monto": "    10,000", "Detalles": "Por recomendar el libro Cien años de soledad"}],
+             "Monto Total": "    60,000"},
+            {"2021-02-15": [
+              {"Monto": "    60,000", "Detalles": "Por ser la persona # 1 en solicitar un canal de telegram"},
+              {"Monto": "    10,000", "Detalles": "Por Exploración insistente en Conf 0"},
+              {"Monto": "    10,000", "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"}],
+             "Monto Total": "    80,000"},
+            {"2021-02-12": [
+              {"Monto": "    10,000", "Detalles": "Por imagen sobre Matemática numérica y el nasobuco de fuego"},
+              {"Monto": "    20,000", "Detalles": "Por Créditos por haber entrado al canal de telegram el viernes"}],
+             "Monto Total": "    30,000"}
+           ]
+},
+  {
   "Nombre": "Lia Zerquera Ferrer",
   "Total de Creditos": " 4,274,000",
   "Gremio": "NIL",
@@ -171,106 +276,6 @@
              "Monto Total": "    46,000"},
             {"2021-02-11": [
               {"Monto": "    30,000", "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
-             "Monto Total": "    30,000"}
-           ]
-},
-  {
-  "Nombre": "Javier Alejandro Oramas López",
-  "Total de Creditos": " 4,084,000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-04-01": [
-              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 4"},
-              {"Monto": "   200,000", "Detalles": "Por obtener factorizacion PLU a partir de la LU"},
-              {"Monto": "   300,000", "Detalles": "Por demostrar que el producto de k matrices eficientes es eficente"},
-              {"Monto": "   130,000", "Detalles": "Por Ejercicio 1 del día 2 de la actividad 3 completo"},
-              {"Monto": "    70,000", "Detalles": "Por Ejercicio 4 del día 1 de la actividad 3 completo"},
-              {"Monto": "   100,000", "Detalles": "Por deducir uso del vector de permutaciones"},
-              {"Monto": "   120,000", "Detalles": "Por identificar 4 matrices eficientes (diagonal, triangulares-superior, triangular-inferior, ortogonal)"}],
-             "Monto Total": "   921,000"},
-            {"2021-03-29": [
-              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
-             "Monto Total": "    30,000"},
-            {"2021-03-27": [
-              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 1 ejercicio  3 completo entregado antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  4 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  5 completo entregado antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  6 completo entregado antes"},
-              {"Monto": "   120,000", "Detalles": "Por CP 1 ejercicio  7 completo entregado antes"},
-              {"Monto": "   160,000", "Detalles": "Por CP 1 ejercicio  8 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  9 completo entregado antes"},
-              {"Monto": "   160,000", "Detalles": "Por CP 1 ejercicio 12 completo entregado antes"},
-              {"Monto": "   300,000", "Detalles": "Por CP 1 ejercicio 13 completo entregado antes"},
-              {"Monto": "   400,000", "Detalles": "Por CP 1 ejercicio 14 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 1 entregada antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 2 entregada antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 1 pregunta secreta 3 entregada antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 1 pregunta secreta 4 entregada antes"}],
-             "Monto Total": " 1,760,000"},
-            {"2021-03-18": [
-              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 3"}],
-             "Monto Total": "    10,000"},
-            {"2021-03-17": [
-              {"Monto": "    20,000", "Detalles": "Por hacer ejercicio 1 de conferencia 2 donde pedían Mostrar por qué la condición se puede aproximar por la expresión que tiene la derivada."}],
-             "Monto Total": "    20,000"},
-            {"2021-03-10": [
-              {"Monto": "    50,000", "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": "    50,000"},
-            {"2021-03-09": [
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
-              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 2"},
-              {"Monto": "     5,000", "Detalles": "Por encontrar error en primera version de la clase práctica 2"},
-              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 2"},
-              {"Monto": "    10,000", "Detalles": "Por actividad opcional en conferencia 2: Amuleto anti maldiciones imperdonables"},
-              {"Monto": "    10,000", "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
-              {"Monto": "    90,000", "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 0 ejercicio 11 completo entregado antes"},
-              {"Monto": "   160,000", "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio 13 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 0 pregunta secreta 2 entregada antes"}],
-             "Monto Total": "   926,000"},
-            {"2021-03-07": [
-              {"Monto": "   124,000", "Detalles": "Por obtener lugar 6 en el concurso por el 14 de febrero"}],
-             "Monto Total": "   124,000"},
-            {"2021-03-05": [
-              {"Monto": "     3,000", "Detalles": "Por rectificar errores ortograficos (3) en primera version de la conferencia 2"}],
-             "Monto Total": "     3,000"},
-            {"2021-02-26": [
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
-              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
-             "Monto Total": "    50,000"},
-            {"2021-02-19": [
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con clase práctica 0"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"}],
-             "Monto Total": "    20,000"},
-            {"2021-02-17": [
-              {"Monto": "    10,000", "Detalles": "Por uso de su imagen de manera explícita :-P en conferencia 0"},
-              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 0"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 0"},
-              {"Monto": "    10,000", "Detalles": "Por recomendar el libro Cien años de soledad"}],
-             "Monto Total": "    60,000"},
-            {"2021-02-15": [
-              {"Monto": "    60,000", "Detalles": "Por ser la persona # 1 en solicitar un canal de telegram"},
-              {"Monto": "    10,000", "Detalles": "Por Exploración insistente en Conf 0"},
-              {"Monto": "    10,000", "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"}],
-             "Monto Total": "    80,000"},
-            {"2021-02-12": [
-              {"Monto": "    10,000", "Detalles": "Por imagen sobre Matemática numérica y el nasobuco de fuego"},
-              {"Monto": "    20,000", "Detalles": "Por Créditos por haber entrado al canal de telegram el viernes"}],
              "Monto Total": "    30,000"}
            ]
 },
@@ -645,6 +650,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-28": [
               {"Monto": "    90,000", "Detalles": "Por conocer 3 estretegias de pivote"},
               {"Monto": "   180,000", "Detalles": "Por identificar 6 matrices eficientes (diagonal, tridiagonal, biidiagonal, triangular-inferior, triangulares-superior, diagonal multiplicada por escalar)"}],
@@ -811,6 +819,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -1078,6 +1089,114 @@
               {"Monto": "    10,000", "Detalles": "Por exploración insistente en Conf 0"},
               {"Monto": "    28,000", "Detalles": "Por ser la persona # 33 en solicitar un canal de telegram"}],
              "Monto Total": "    68,000"},
+            {"2021-02-13": [
+              {"Monto": "     5,000", "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
+             "Monto Total": "     5,000"}
+           ]
+},
+  {
+  "Nombre": "Roxana Peña Mendieta",
+  "Total de Creditos": " 2,788,000",
+  "Gremio": "NIL",
+  "Frase de estado": "NIL",
+  "Fecha": [
+            {"2021-05-02": [
+              {"Monto": "    50,000", "Detalles": "Por actividad opcional en conferencia 3: Un cuento sobre lo que pasó en el aula 4. Cuenta la historia del muchacho que salió del aula molesto :-D."},
+              {"Monto": "    10,000", "Detalles": "Por proponer parar cuando se tenga determinado número de csc en Newton en conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por proponer parar en Newton cuando |f(x_i)| < tol. en conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por seguir el tutorial y decir de dónde se puede despejar h en conferencia 5"},
+              {"Monto": "    20,000", "Detalles": "Por seguir el tutorial y proponer desarrollar f(x+h) en serie de Taylor en conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por proponer acotar el error absoluto en bisección por el tamaño del intervalo. en conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por Proponer usar el teorema de Bolzano. en conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por Proponer usar el residual que se acaba de introducir en esta conferencia. en conferencia 4"},
+              {"Monto": "    10,000", "Detalles": "Por Profe, pero si fuera por redondeo al flotante más cercano, ¿esa distancia no sería la mitad? en conferencia 2"},
+              {"Monto": "    90,000", "Detalles": "Por identificar 3 matrices eficientes (triangular-inferior, triangulares-superior, diagonal)"}],
+             "Monto Total": "   230,000"},
+            {"2021-03-29": [
+              {"Monto": "    50,000", "Detalles": "Por encontrar error en primera version de la conferencia 5"},
+              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 5"},
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    90,000"},
+            {"2021-03-27": [
+              {"Monto": "    10,000", "Detalles": "Por actividad opcional en conferencia 3: La leyenda oscura del SEL"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 1 ejercicio  3 completo entregado antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  4 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  5 completo entregado antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  6 completo entregado antes"},
+              {"Monto": "   120,000", "Detalles": "Por CP 1 ejercicio  7 completo entregado antes"},
+              {"Monto": "   160,000", "Detalles": "Por CP 1 ejercicio  8 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  9 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio 10 completo entregado antes"},
+              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio 11 completo entregado antes"},
+              {"Monto": "   300,000", "Detalles": "Por CP 1 ejercicio 13 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 1 entregada antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 2 entregada antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 1 pregunta secreta 3 entregada antes"},
+              {"Monto": "    80,000", "Detalles": "Por CP 1 pregunta secreta 4 entregada antes"}],
+             "Monto Total": " 1,410,000"},
+            {"2021-03-25": [
+              {"Monto": "    30,000", "Detalles": "Por encontrar error en primera version de la conferencia 4"}],
+             "Monto Total": "    30,000"},
+            {"2021-03-18": [
+              {"Monto": "    11,000", "Detalles": "Por rectificar errores ortograficos (11) en primera version de la conferencia 1"}],
+             "Monto Total": "    11,000"},
+            {"2021-03-10": [
+              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 2"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
+              {"Monto": "    20,000", "Detalles": "Por calcular el valor del espaciamiento en conferencia 1"},
+              {"Monto": "    12,000", "Detalles": "Por rectificar errores ortograficos (12) en primera version de la conferencia 2"},
+              {"Monto": "    10,000", "Detalles": "Por actividad opcional en conferencia 2: espada laser para defenderse de los profesores de 4to grado"},
+              {"Monto": "    50,000", "Detalles": "Por entregar cp0 en tiempo"}],
+             "Monto Total": "   133,000"},
+            {"2021-03-09": [
+              {"Monto": "    10,000", "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
+              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
+              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
+              {"Monto": "    90,000", "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
+              {"Monto": "   160,000", "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
+              {"Monto": "    40,000", "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"}],
+             "Monto Total": "   640,000"},
+            {"2021-03-03": [
+              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"}],
+             "Monto Total": "    30,000"},
+            {"2021-03-02": [
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con clase práctica 1"},
+              {"Monto": "     3,000", "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 1"}],
+             "Monto Total": "    13,000"},
+            {"2021-02-26": [
+              {"Monto": "    19,000", "Detalles": "Por rectificar errores ortograficos (19) en primera version de la conferencia 1"},
+              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
+              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
+             "Monto Total": "    89,000"},
+            {"2021-02-23": [
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"}],
+             "Monto Total": "    10,000"},
+            {"2021-02-22": [
+              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"}],
+             "Monto Total": "    10,000"},
+            {"2021-02-17": [
+              {"Monto": "    10,000", "Detalles": "Por recomendar el libro El padrino"},
+              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"},
+              {"Monto": "    10,000", "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"},
+              {"Monto": "     7,000", "Detalles": "Por rectificar errores ortograficos (7) en primera version de la conferencia 0"},
+              {"Monto": "    40,000", "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."}],
+             "Monto Total": "    68,000"},
+            {"2021-02-16": [
+              {"Monto": "    10,000", "Detalles": "Por exploración insistente en Conf 0"},
+              {"Monto": "     9,000", "Detalles": "Por ser la persona # 52 en solicitar un canal de telegram"}],
+             "Monto Total": "    19,000"},
             {"2021-02-13": [
               {"Monto": "     5,000", "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
              "Monto Total": "     5,000"}
@@ -1360,6 +1479,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "   400,000", "Detalles": "Por hacer antes toda la CP 1"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
@@ -1410,6 +1532,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    16,000", "Detalles": "Por CP 1 ejercicio  1 (incisos A, C) entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -1470,102 +1595,6 @@
             {"2021-02-11": [
               {"Monto": "    30,000", "Detalles": "Por Créditos por haber entrado al canal de telegram el jueves"}],
              "Monto Total": "    30,000"}
-           ]
-},
-  {
-  "Nombre": "Roxana Peña Mendieta",
-  "Total de Creditos": " 2,558,000",
-  "Gremio": "NIL",
-  "Frase de estado": "NIL",
-  "Fecha": [
-            {"2021-03-29": [
-              {"Monto": "    50,000", "Detalles": "Por encontrar error en primera version de la conferencia 5"},
-              {"Monto": "    10,000", "Detalles": "Por encontrar error en primera version de la conferencia 5"},
-              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
-             "Monto Total": "    90,000"},
-            {"2021-03-27": [
-              {"Monto": "    10,000", "Detalles": "Por actividad opcional en conferencia 3: La leyenda oscura del SEL"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 1 ejercicio  3 completo entregado antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  4 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  5 completo entregado antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  6 completo entregado antes"},
-              {"Monto": "   120,000", "Detalles": "Por CP 1 ejercicio  7 completo entregado antes"},
-              {"Monto": "   160,000", "Detalles": "Por CP 1 ejercicio  8 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio  9 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio 10 completo entregado antes"},
-              {"Monto": "   100,000", "Detalles": "Por CP 1 ejercicio 11 completo entregado antes"},
-              {"Monto": "   300,000", "Detalles": "Por CP 1 ejercicio 13 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 1 entregada antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 1 pregunta secreta 2 entregada antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 1 pregunta secreta 3 entregada antes"},
-              {"Monto": "    80,000", "Detalles": "Por CP 1 pregunta secreta 4 entregada antes"}],
-             "Monto Total": " 1,410,000"},
-            {"2021-03-25": [
-              {"Monto": "    30,000", "Detalles": "Por encontrar error en primera version de la conferencia 4"}],
-             "Monto Total": "    30,000"},
-            {"2021-03-18": [
-              {"Monto": "    11,000", "Detalles": "Por rectificar errores ortograficos (11) en primera version de la conferencia 1"}],
-             "Monto Total": "    11,000"},
-            {"2021-03-10": [
-              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 2"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 2"},
-              {"Monto": "    20,000", "Detalles": "Por calcular el valor del espaciamiento en conferencia 1"},
-              {"Monto": "    12,000", "Detalles": "Por rectificar errores ortograficos (12) en primera version de la conferencia 2"},
-              {"Monto": "    10,000", "Detalles": "Por actividad opcional en conferencia 2: espada laser para defenderse de los profesores de 4to grado"},
-              {"Monto": "    50,000", "Detalles": "Por entregar cp0 en tiempo"}],
-             "Monto Total": "   133,000"},
-            {"2021-03-09": [
-              {"Monto": "    10,000", "Detalles": "Por CP 0 ejercicio  1 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  2 completo entregado antes"},
-              {"Monto": "    20,000", "Detalles": "Por CP 0 ejercicio  3 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  4 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  5 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 ejercicio  6 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  7 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  8 completo entregado antes"},
-              {"Monto": "    60,000", "Detalles": "Por CP 0 ejercicio  9 completo entregado antes"},
-              {"Monto": "    90,000", "Detalles": "Por CP 0 ejercicio 10 completo entregado antes"},
-              {"Monto": "   160,000", "Detalles": "Por CP 0 ejercicio 12 completo entregado antes"},
-              {"Monto": "    40,000", "Detalles": "Por CP 0 pregunta secreta 1 entregada antes"}],
-             "Monto Total": "   640,000"},
-            {"2021-03-03": [
-              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con clase práctica 1"}],
-             "Monto Total": "    30,000"},
-            {"2021-03-02": [
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con clase práctica 1"},
-              {"Monto": "     3,000", "Detalles": "Por rectificar errores ortograficos (3) en primera version de la clase práctica 1"}],
-             "Monto Total": "    13,000"},
-            {"2021-02-26": [
-              {"Monto": "    19,000", "Detalles": "Por rectificar errores ortograficos (19) en primera version de la conferencia 1"},
-              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
-              {"Monto": "    30,000", "Detalles": "Por hacer 1 meme numérico relacionado con conferencia 1"},
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme relacionado con conferencia 1"}],
-             "Monto Total": "    89,000"},
-            {"2021-02-23": [
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"}],
-             "Monto Total": "    10,000"},
-            {"2021-02-22": [
-              {"Monto": "    10,000", "Detalles": "Por hacer 1 meme"}],
-             "Monto Total": "    10,000"},
-            {"2021-02-17": [
-              {"Monto": "    10,000", "Detalles": "Por recomendar el libro El padrino"},
-              {"Monto": "     1,000", "Detalles": "Por rectificar errores ortograficos (1) en primera version de la clase práctica 0"},
-              {"Monto": "    10,000", "Detalles": "Por solicitarle a Rocio la actividad opcional en conferencia 0"},
-              {"Monto": "     7,000", "Detalles": "Por rectificar errores ortograficos (7) en primera version de la conferencia 0"},
-              {"Monto": "    40,000", "Detalles": "Por identificar 4 recomendaciones de libros de los profesores."}],
-             "Monto Total": "    68,000"},
-            {"2021-02-16": [
-              {"Monto": "    10,000", "Detalles": "Por exploración insistente en Conf 0"},
-              {"Monto": "     9,000", "Detalles": "Por ser la persona # 52 en solicitar un canal de telegram"}],
-             "Monto Total": "    19,000"},
-            {"2021-02-13": [
-              {"Monto": "     5,000", "Detalles": "Por Créditos por haber solicitado la incorporación al sistema de créditos en el canal."}],
-             "Monto Total": "     5,000"}
            ]
 },
   {
@@ -1668,6 +1697,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -1717,6 +1749,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2047,6 +2082,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    16,000", "Detalles": "Por CP 1 ejercicio  1 (incisos A, C) entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2164,6 +2202,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2215,10 +2256,13 @@
 },
   {
   "Nombre": "Ernesto Alfonso Hernández",
-  "Total de Creditos": " 1,863,000",
+  "Total de Creditos": " 1,913,000",
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-05-02": [
+              {"Monto": "    50,000", "Detalles": "Por deducir uso del vector de permutaciones"}],
+             "Monto Total": "    50,000"},
             {"2021-04-01": [
               {"Monto": "   200,000", "Detalles": "Por obtener factorizacion PLU a partir de la LU"},
               {"Monto": "   300,000", "Detalles": "Por demostrar que el producto de k matrices eficientes es eficente"},
@@ -2313,6 +2357,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2486,6 +2533,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2666,6 +2716,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2791,6 +2844,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "     8,000", "Detalles": "Por CP 1 ejercicio  1 (inciso C) entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2832,6 +2888,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2882,6 +2941,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2927,6 +2989,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -2969,6 +3034,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -3004,6 +3072,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    50,000", "Detalles": "Por CP 1 ejercicio  5 completo"},
               {"Monto": "    80,000", "Detalles": "Por CP 1 ejercicio  8 completo"},
@@ -3034,6 +3105,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  2 completo entregado antes"},
@@ -3364,6 +3438,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    10,000", "Detalles": "Por CP 1 ejercicio  1 completo"},
               {"Monto": "    10,000", "Detalles": "Por CP 1 ejercicio  2 completo"},
@@ -3396,6 +3473,9 @@
   "Gremio": "NIL",
   "Frase de estado": "NIL",
   "Fecha": [
+            {"2021-03-29": [
+              {"Monto": "    30,000", "Detalles": "Por entregar la cp 1 en LaTeX o ipynb"}],
+             "Monto Total": "    30,000"},
             {"2021-03-27": [
               {"Monto": "    20,000", "Detalles": "Por CP 1 ejercicio  1 completo entregado antes"},
               {"Monto": "    40,000", "Detalles": "Por CP 1 ejercicio  3 (incisos A, B) entregado antes"},
