@@ -1,8 +1,8 @@
 {"Preguntas": [
-    {   "Texto": "Cuantos banos hay en la facultad?", 
-        "RespuestasPosibles": [{"0": 1}, {"1": 2}, {"2": 3}, {"3": 4}, {"4": 5}], 
-        "RespuestaCorrecta": 5, 
-        "Explicacion": "Uno en el primer piso, dos en el segundo piso, uno en el tercero y uno en el area del laboratorio",
+    {   "Texto": "Cuál de los siguientes grupos de matrices tienen complejidad igual a n^2", 
+        "RespuestasPosibles": [{"0": "Cuadradas"}, {"1": "Permutación de diagonales"}, {"2": "Las que tienen una fila 0"}, {"3": "Las de dimensión 2x4"}], 
+        "RespuestaCorrecta": "Permutación de diagonales", 
+        "Explicacion": "La permutación de las diagonales",
         "Tiempo": 30},
     {   "Texto": "Cuales son las carreras que se estudian en MatCom?", 
         "RespuestasPosibles": [{"0": "Matematica y Ciencia de la Computacion"}, {"1": "Filosofia"}, {"2": "Biologia"}, {"3": "Fisica"}],
