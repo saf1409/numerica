@@ -78,7 +78,10 @@ def start(update, context):
 	for item in Users:
 		registrado = True
 		break
-
+		
+	conexion.commit()
+	conexion.close()
+	
 	if not registrado:
 		update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
 		update.message.chat.send_message("Introduce tu nombre completo")
