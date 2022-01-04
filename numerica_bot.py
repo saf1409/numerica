@@ -1694,7 +1694,8 @@ def update_databese(update, context):
 		#FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
 		#file = context.bot.getFile(FILE_ID)
 		#file.download('./NumericaBotDatabase/numericabot.db')
-		database = open("NumericaBotDatabase/numericabot.db",  "rb")
+		#database = open("NumericaBotDatabase/numericabot.db",  "rb")
+		database = open("NumericaBotDatabase/numericabot.db",  "w")
 		FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=database).document.file_id
 		MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
 		update.message.chat.bot.pin_chat_message(chat_id=CHAT_ID, message_id=MESSAGE_ID)
