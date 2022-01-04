@@ -1691,9 +1691,9 @@ def create_countdown(timeout_secs, callback, context, mode, **kwargs):
 
 def update_databese(update, context):
 	if update.effective_user['id'] == 937372768 or update.effective_user['id'] == 716780131:
-		#FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
-		#file = context.bot.getFile(FILE_ID)
-		#file.download('./NumericaBotDatabase/numericabot.db')
+		FILE_ID = context.bot.get_chat(CHAT_ID).pinned_message.text
+		file = context.bot.getFile(FILE_ID)
+		file.download('./NumericaBotDatabase/numericabot.db')
 		database = open("NumericaBotDatabase/numericabot.db",  "rb")
 		FILE_ID = update.message.chat.bot.send_document(chat_id=CHAT_ID, document=database).document.file_id
 		MESSAGE_ID = update.message.chat.bot.send_message(chat_id=CHAT_ID, text=FILE_ID).message_id
