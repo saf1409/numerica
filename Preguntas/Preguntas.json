@@ -62,13 +62,13 @@
     {	"Texto": "Si la norma infinita de la matriz de iteración del método de Jacobi es menor que 1 entonces: ", 
         "RespuestasPosibles": [{"0": "..."}, {"1": "el método de Gaus-Seidel converge"}, {"2": "el método de Gaus-Seidel no converge"}], 
         "RespuestaCorrecta": "el método de Gaus-Seidel converge", 
-        "Explicacion": "Además el método de Gauss ' Seidel converge más rapido que el de jacobi y si la norma 1 es menor que uno, los dos convergen pero no se puede asegurar cual lo hace más rápido.",
+        "Explicacion": "Además el método de Gauss - Seidel converge más rapido que el de jacobi y si la norma 1 es menor que uno, los dos convergen pero no se puede asegurar cual lo hace más rápido.",
         "Tiempo": 25},
-    {	"Texto": "1 + 1 siempre es igual a:", 
-        "RespuestasPosibles": [{"0": 2}, {"1": "Si algo he aprendido en la carrera es que 1 + 1 NO siempre es igual a 2"}, {"2": "aun no se he llegado a ese contenido"}], 
-        "RespuestaCorrecta": "Si algo he aprendido en la carrera es que 1 + 1 no siempre es igual a 2", 
-        "Explicacion": "Dado en Algebra",
-        "Tiempo": 35}]}
+    {	"Texto": "Frobenius es un tipo de :", 
+        "RespuestasPosibles": [{"0": "norma"}, {"1": "matriz"}, {"2": "polinomio"}], 
+        "RespuestaCorrecta": "norma", 
+        "Explicacion": "Esta entre los ejemplos de normas que vemos en clases",
+        "Tiempo": 10}]}
 
 
 
