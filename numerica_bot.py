@@ -98,6 +98,10 @@ def name(update, context):
 
 	conexion = sqlite3.connect("NumericaBotDatabase/numericabot.db")
 	cursor = conexion.cursor()
+	
+	cursor.execute("CREATE TABLE IF NOT EXISTS `Usuario` " \
+		"(`ID_User` integer PRIMARY KEY NOT NULL, `Nombre_User` VARCHAR(50) NOT NULL)")
+	
 	cursor.execute("INSERT INTO `Usuario` (`ID_User`,`Nombre_User`) Values"\
 			"('{0}', '{1}')".format(update.effective_user['id'], nombre))
 	conexion.commit()
