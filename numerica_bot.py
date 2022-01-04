@@ -59,6 +59,7 @@ def help(update, context):
 	return ConversationHandler.END
 
 def start(update, context):
+	print(update.message.chat.id)
 	name = update.effective_user['first_name']
 	update.message.chat.send_action(action = ChatAction.TYPING, timeout = None)
 	update.message.chat.send_message("Hola " + name + ", esta es una herramienta hecha especialmente para la asignatura Matematica Numerica, esperamos que le sea util.")
